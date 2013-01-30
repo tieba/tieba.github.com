@@ -145,9 +145,9 @@
 				for(var i=0;i!=table.length;++i){
 					var content=table[i];
 					var tr=$("<tr></tr>").appendTo(tbody);
-						$("<td width=\""+(twd?twd:300)+"px\" align=\"right\"></td>").appendTo(tr)
+						$("<td width=\""+(twd?twd:300)+"px\" align=\"left\"></td>").appendTo(tr)
 							.append("<a "+(content[0]?"target=\"_blank\" href=\""+content[0]:" href=\"javascript:;\"")+"\">"+preproc(content[1])+"</a>");
-						$("<td align=\"right\"></td>").appendTo(tr)
+						$("<td align=\"left\"></td>").appendTo(tr)
 							.append(content[2]);
 				}
 			}
@@ -160,9 +160,9 @@
 					var td=$("<td></td>").appendTo(tr);
 					$("<a href=\"javascript:;\" onclick=\"$(this).next().next().slideToggle();\">"+(content[1]?"":"[暂无回答]")+content[0]+"</a><br>").appendTo(td);
 					$("<div style=\"display:none;\">&nbsp;&nbsp;&nbsp;&nbsp;"+(content[1]?content[1]:"----------------------").split("<br>").join("<br>&nbsp;&nbsp;&nbsp;&nbsp;")+"</div>").appendTo(td);
-					//	$("<td align=\"right\"></td>").appendTo(tr)
+					//	$("<td align=\"left\"></td>").appendTo(tr)
 					//		.append("<a target=\"_blank\" href=\""+content[0]+"\">"+content[1]+"</a>");
-					//	$("<td width=\"120px\" align=\"right\"></td>").appendTo(tr)
+					//	$("<td width=\"120px\" align=\"left\"></td>").appendTo(tr)
 					//		.append("<a target=\"_blank\" href=\""+(content[2]?"http://www.baidu.com/p/"+content[2]:"javascript:;")+"\">"+content[2]+"</a>");
 					//$("<tr><td colspan=\"2\">"+content[0]+"</td></tr>").appendTo(tbody);
 					//$("<tr><td width=\"40px\"></td><td style=\"color:gray;\">"+content[1]+"</td></tr>").appendTo(tbody);
@@ -174,9 +174,9 @@
 				for(var i=0;i!=table.length;++i){
 					var content=table[i];
 					var tr=$("<tr></tr>").appendTo(tbody);
-						$("<td align=\"right\"></td>").appendTo(tr)
+						$("<td align=\"left\"></td>").appendTo(tr)
 							.append("<a target=\"_blank\" href=\""+content[0]+"\">"+content[1]+"</a>");
-						$("<td width=\"120px\" align=\"right\"></td>").appendTo(tr)
+						$("<td width=\"120px\" align=\"left\"></td>").appendTo(tr)
 							.append("<a target=\"_blank\" href=\""+(content[2]?"http://www.baidu.com/p/"+content[2]:"javascript:;")+"\">"+content[2]+"</a>");
 				}
 			}
@@ -194,12 +194,12 @@
 			<a href="javascript:;" onclick="toggle_table(this);" id="admin_title_link" class="topic_title_link"><h3>本版管理组</h3></a>
 				<div class="topic_table_div">
 					<table width="100%" class="section_content"><tbody>
-					<tr valign="top"><td width="40px" align="right">吧主:</td><td>
+					<tr valign="top"><td width="40px" align="left">吧主:</td><td>
 							<a target="_blank" href="http://www.baidu.com/p/RichSelian">RichSelian</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/%D3%F9%DB%E0%C3%C0%C7%D9%A4%DF%A4%B5%A4%AB">御坂美琴みさか</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/%B6%A5%D6%AE%D7%F9__%BA%D5%BF%A8%CC%D8">顶之座__赫卡特</a>&nbsp;
 					</td></tr>
-					<tr valign="top"><td width="40px" align="right">小吧:</td><td>
+					<tr valign="top"><td width="40px" align="left">小吧:</td><td>
 							<a target="_blank" href="http://www.baidu.com/p/wohaaitinciu">wohaaitinciu</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/RFrith">RFrith</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/%B2%CA%C9%AB%A4%CE%89%F4%A1%C9o%A1%C9">彩色の夢∩o∩</a>&nbsp;
@@ -210,7 +210,7 @@
 							<a target="_blank" href="http://www.baidu.com/p/%BA%AE%D4%C6%CB%C6%CE%ED">寒云似雾</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/assiss">assiss</a>&nbsp;
 					</td></tr>
-					<tr valign="top"><td width="40px" align="right">小编:</td><td>
+					<tr valign="top"><td width="40px" align="left">小编:</td><td>
 							<a target="_blank" href="http://www.baidu.com/p/EAgleLeo">EAgleLeo</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/EGE%C4%EF">EGE娘</a>&nbsp;
 							<a target="_blank" href="http://www.baidu.com/p/%BB%E3%C0%B6%C4%F1">汇蓝鸟</a>&nbsp;
@@ -448,7 +448,7 @@
 						对大众化的软件，就象 Linux之类而言，每个开发者至少会有上万名用户。根本不可能由一个人来处理来自上万名用户的求助电话。要知道，即使你要为帮助付费，同你必须购买同类软件相比，你所付出的也是微不足道的（通常封闭源代码软件的技术支持费用比开放源代码软件要高得多，且内容也不那么丰富）。<br>
 					</div>
 					<br>
-				</div>
+			</div>
 			<script>toggle_table("#rule_title_link")</script>
 			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
 			

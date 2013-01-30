@@ -1,0 +1,108 @@
+资源神马的:
+书:
+　　初学者直接用<C Primer Plus>,学过其他语言的可以试试<C程序设计语言>(K&R版的)
+　　C语言 http://pan.baidu.com/share/link?shareid=8582&uk=2483117763#dir/path=%2FE-books%2FC%E8%AF%AD%E8%A8%80
+　　C++ http://pan.baidu.com/share/link?shareid=8582&uk=2483117763#dir/path=%2FE-books%2FC%2B%2B
+　　文档 http://pan.baidu.com/share/link?shareid=8582&uk=2483117763#dir/path=%2FE-books%2F%E6%A0%87%E5%87%86%E6%96%87%E6%A1%A3
+　　进阶 http://pan.baidu.com/share/link?shareid=8582&uk=2483117763#dir/path=%2FE-books%2F%E8%BF%9B%E9%98%B6%E4%B9%A6%E7%B1%8D
+
+集成开发环境(IDE,所谓的编译器+编辑器): 推荐带*前缀的	
+　　*Microsoft Visual C++ 2010 Express:
+　　　　http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express
+　　*Code::Blocks:　http://www.codeblocks.org/
+　　*CodeLite:　http://www.codelite.org/
+　　Dev-C++:　http://www.bloodshed.net/devcpp.html
+　　Eclipse:　http://www.eclipse.org/downloads/
+　　Netbeans:　http://netbeans.org/
+　　C-Free:　http://www.prgramarts.com/cfree_ch/download.htm
+
+各种基础知识和其他链接等:
+　　ISO C的一些基本概念: http://tieba.baidu.com/p/1411238421
+　　ISO C11附录C: http://tieba.baidu.com/p/1422487681
+　　原问题资料大全: http://tieba.baidu.com/p/13382217
+　　提问的艺术(原作者:ESR): http://tieba.baidu.com/f?kz=1058990383
+　　C语言常见问题集 (C FAQ中文版,印刷版叫<495个C语言问题>)
+　　　　http://c-faq-chn.sourceforge.net/
+　　调试指南(问问题之前请自重):
+　　　　http://tieba.baidu.com/p/1570864020
+　　四则计算器(其实人都是慢慢改进的):
+　　　　http://tieba.baidu.com/p/1535637800
+　　xxx管理系统(作业党你们懂的,伸手杀无赦):
+　　　　http://tieba.baidu.com/p/1109535412
+　　链表: http://tieba.baidu.com/p/1393147869
+　　各种教程(环境构建):
+　　　　http://tieba.baidu.com/p/1098980046
+　　　　http://tieba.baidu.com/p/988192757
+　　C语言二级党一边去:
+　　　　http://tieba.baidu.com/p/1213185590
+　　某个吧主的学习经历:
+　　　　http://hi.baidu.com/misaka20001/blog/item/0964d41fc2daf3398718bf42.html
+http://tieba.baidu.com/p/1946230452 
+
+$(".p_post_del").trigger('click')
+
+
+[ 关于发帖的一些建议,原作者:@EAgleLeo ]
+标题中最好不要用类似[急.求.大神.救命]之类的词语
+这些词语没什么加分 反倒有可能招来删帖
+标题请尽量描述一下出现的问题
+在点击发帖之前先用搜索引擎搜索自己的标题看是否有已经存在的解决方法
+上面一步如果你没好好写标题的话自求多福好了
+
+附加 别 [小女子 妹子]的到处强调你的性别
+尤其是当人想到扳脚大汉说着 老娘 之类词语 的情况时
+吧里的各位也稍微收敛点 别看到妹子就节操一地
+看到有意思的神马神马的
+自己私信好了
+省得等到异端审判的时候你再解释什么
+
+
+[ 资源-迅雷快传链接 上传人:@沧桑了那浮夸 ]
+[[ps: to 沧桑了那浮夸 原帖是更新原因删的，建议你再发一遍, 免得到时候到期了不好处理,这贴回头我自己会删的]]
+
+C语言书籍: 
+http://kuai.xunlei.com/d/DNKVUEZTVYDI C Primer Plus（第五版）中文版.pdf　　
+http://kuai.xunlei.com/d/DAENAXPONMHN C和指针(第二版).pdf　　
+http://kuai.xunlei.com/d/DZTGEGKFBXWD C专家编程.pdf　　
+http://kuai.xunlei.com/d/DVOBFQZBTOOH The C Standard Library.pdf　　
+http://kuai.xunlei.com/d/DTDILASQCKSG The C Programming Language(C程序设计语言).pdf
+标准文档(C/C++): 
+http://kuai.xunlei.com/d/DRMGLAPPFYHE ISO IEC 9899 1999 (C99).pdf　　
+http://kuai.xunlei.com/d/DPOONOORSQDO ISO IEC 14882 2003 (C++03).pdf　　
+http://kuai.xunlei.com/d/DEAZDHDQIVKN ISO IEC 14882 2011 (C++11).pdf 
+The C89 Draft.html未找到
+其它的书:　　
+http://kuai.xunlei.com/d/DANDSENLSMJW 算法导论中文版.pdf　　
+http://kuai.xunlei.com/d/DICNZSEBNQVH Introduction to Algorithms(算法导论).pdf　
+http://kuai.xunlei.com/d/DCRFZTMMWCOS C++Primer中文版(第4版).pdf　　
+http://kuai.xunlei.com/d/DFEQXHYQOWYE C++程序设计语言(特别版).pdf　　
+http://kuai.xunlei.com/d/DVXMOMEPNDSQ 深度探索C++对象模型.pdf　　
+http://kuai.xunlei.com/d/DTYBFTAENZNZ Effective C++中文版(第三版).pdf　　
+http://kuai.xunlei.com/d/DEYHAMULLFJU More Effective C++中文版.pdf　　
+http://kuai.xunlei.com/d/DYAKFYSLTXDA Essential C++中文版.pdf　　
+http://kuai.xunlei.com/d/DLLSWTVTVEXT More Exceptional C++中文版.pdf　　
+http://kuai.xunlei.com/d/DERUSZVOBKKY Modern C++ Design中文版.pdf　　
+http://kuai.xunlei.com/d/DBZOIRTZEBLG C++语言的设计和演化.pdf　　
+http://kuai.xunlei.com/d/DXHUZEXBHOQQ C++标准程序库.pdf　　
+http://kuai.xunlei.com/d/DMFUOWAPXKQP Imperfect C++.chm　　
+http://kuai.xunlei.com/d/DXTIJBHZARPS Accelerated C++.pdf　　
+http://kuai.xunlei.com/d/DLTYTMHZCVTJ STL源码剖析.pdf 
+http://kuai.xunlei.com/d/DOQZCJQCUQRR C++ Primer 第四版　　
+http://kuai.xunlei.com/d/DOHZHTMYBIHE C++ GUI Programming With Qt 4　　
+http://kuai.xunlei.com/d/DKEZRJGCISSK 数据结构与算法分析C++描述第三版　　
+http://kuai.xunlei.com/d/DBJYCPJBUMHZ Effective STL　　
+http://kuai.xunlei.com/d/DMDPKKCQYENE Thinking in C++ 2nd Edition, Volume 1　　
+http://kuai.xunlei.com/d/DTYSNWXYWBXM Thinking in C++ 2nd Edition, Volume 2　　
+http://kuai.xunlei.com/d/DYQGGXSLSQZH The C++ Programming Language 3rd Edition　
+http://kuai.xunlei.com/d/DOHZHTMYBIHE C++ GUI Programming With Qt4 2nd Ed　　
+http://kuai.xunlei.com/d/DONBCXKSUYFP C++ 程序设计语言.pdf　　
+http://kuai.xunlei.com/d/DXOVXGXUAQVR C++ Templates(简体中文版).pdf　　
+http://kuai.xunlei.com/d/DCOWNAGWHSOM ISO/IEC 14882:2003　 
+http://kuai.xunlei.com/d/DHSHSJJEDJJP wxWidgets教程.pdf　　
+http://kuai.xunlei.com/d/DUIWDHNIAYZJ Windows程序设计(第五版)　　
+http://kuai.xunlei.com/d/DTLBRDGJPQTY Beyond STL cn.chm 
+ISO/IEC DTR 19768 TR1未找到
+游戏编程:　 
+http://kuai.xunlei.com/d/DFDBWDAWCWUQ LUA中文参考　　
+http://kuai.xunlei.com/d/DMMOZJHPPGGF 游戏音频编程入门　　
+游戏编程精粹[7本]，游戏编程All.In.One和AI游戏引擎程序设计均未找到

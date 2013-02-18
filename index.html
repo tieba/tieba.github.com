@@ -82,6 +82,26 @@
 					$("<div style=\"display:none;\">&nbsp;&nbsp;&nbsp;&nbsp;"+(content[1]?content[1]:"----------------------").split("<br>").join("<br>&nbsp;&nbsp;&nbsp;&nbsp;")+"</div>").appendTo(td);
 				}
 			}
+			function id_link(s){
+				var l=s.split("/");
+				for(var i=0;i!=s.length;++i){
+					if(l[i]&&l[i]!="...")
+						l[i]="<a target=\"_blank\" href=\""+"http://www.baidu.com/p/"+l[i]+"\">"+l[i]+"</a>";
+				}
+				return l.join("/");
+			}
+			function fill_person(info){
+				var tbody=init_tbody(info)
+				var table=info.content;
+				for(var i=0;i!=table.length;++i){
+					var content=table[i];
+					var tr=$("<tr></tr>").appendTo(tbody);
+						$("<td align=\"left\"></td>").appendTo(tr)
+							.append(id_link(content[0]));
+						$("<td align=\"left\"></td>").appendTo(tr)
+							.append(content[1]);
+				}
+			}
 			infos=[
 				{name:"集成开发环境",init:fill_info,content:[
 					["http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express","MS Visual C++ 2010 Express","微软出品的C/C++ IDE (Warning:2~4GB)"],
@@ -101,6 +121,23 @@
 					["http://tieba.baidu.com/p/1894817975","LL1表达式计算器","御坂美琴みさか"],
 					["http://tieba.baidu.com/p/1941867601","C语言吧IRC频道","iyzsong"],
 					["http://tieba.baidu.com/p/1977678397","拼图游戏","忆_碎碎念"]
+				]},
+				{name:"人物简介&马甲",init:fill_person,content:[
+					["幻の上帝","圆滚滚的工口帝球葱"],
+					["RichSelian/EGG娘","ROX-滚床压缩肉牛"],
+					["御坂美琴みさか/EGE娘","misaka-传说中的炮姐"],
+					["顶之座__赫卡特","hecate"],
+					["_craftG/良化纲领_/九头一存/万能姬/守尸神主/...","羊驼-最近不知为何一直在强撸"],
+					["Lemoneee/Gilliland/SergeiSobolev/...","好久没出现了"],
+					["User32","冰凉的小脸"],
+					["汇蓝鸟","英文+图形+... <- 似乎快无敌了"],
+					["assiss","元老"],
+					["wysaid","好像在搞3D(gl还是dx)似得"],
+					["彩色の夢∩o∩","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],
+					["怪兽大战魔人","编译器大神"],
+					["阿宾和白洁","已经彻底坏掉了"],
+					["Luoji_1995","逻辑神最近不知道去哪了"],
+					["NaylonSlain","<sub>好久不见... 忘了擅长...</sub>"],
 				]},
 				{name:"给新手的Q&amp;A",init:fill_qa,content:[
 					["我现在在读xx[学校/年级...]，能不能C语言",
@@ -186,15 +223,17 @@
 			]
 			function insert_table(){
 				for(var i=0;i!=infos.length;++i){
-					$('<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link"><h3>'+infos[i].name+'</h3></a>').appendTo("#tablearea")
-					infos[i].div=$('<div class="topic_table_div"></div>').appendTo("#tablearea")
-					if(infos[i].init){
-						infos[i].init(infos[i])
-					}else{
-						infos[i].element=$('<table '+(infos[i].id?'id="table_'+infos[i].id+'"':'')+' width="100%" class="section_content"></table>').appendTo(infos[i].div)
-						infos[i].content=tables[infos[i].id]
-						infos[i].type(infos[i],infos[i].id)
-					}
+					try{
+						$('<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link"><h3>'+infos[i].name+'</h3></a>').appendTo("#tablearea")
+						infos[i].div=$('<div class="topic_table_div"></div>').appendTo("#tablearea")
+						if(infos[i].init){
+							infos[i].init(infos[i])
+						}else{
+							infos[i].element=$('<table '+(infos[i].id?'id="table_'+infos[i].id+'"':'')+' width="100%" class="section_content"></table>').appendTo(infos[i].div)
+							infos[i].content=tables[infos[i].id]
+							infos[i].type(infos[i],infos[i].id)
+						}
+					}catch(e){}
 				}//'id="table_'+infos[i].id+'
 			}
 		</script>

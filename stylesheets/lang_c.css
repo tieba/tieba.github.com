@@ -1,0 +1,27 @@
+.topic_table_div{display:none;}
+.section_content
+{
+	margin: 1em 0;
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+	margin: 0 0 20px;
+	padding: 8px 15px;
+	background: #191919;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #121212;
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+	-o-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+	overflow: auto;
+	overflow-y: hidden;
+}
+table{
+	margin :0 0 5px;
+} 

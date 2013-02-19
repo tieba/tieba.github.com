@@ -43,9 +43,9 @@ infos=[
 		["nadesico19",""],
 		["Coding狂人","好似很久以前被气走了"],
 		["LH_MOUSE_EX","玩窗户<sub>Win</sub>的耗吱"],
-		["","ps@hysw."],
-		["","喂喂喂.... 不能总是只有我写阿..."],
-		["",""],
+		["","ps@hysw. 喂喂喂.... 不能总是只有我写阿..."],
+		["Laconism","@Laconism... 你自我介绍一下"],
+		["寒云似雾/灵风竹/TetrisNoOSer","某个大水笔"],
 		["",""],
 	]},
 	{name:"给新手的Q&amp;A",init:fill_qa,content:[

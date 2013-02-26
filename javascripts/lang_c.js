@@ -118,7 +118,7 @@ infos=[
 		["http://tieba.baidu.com/p/1213185590","建议彻底封杀二级党","serviper"],
 	]},
 	{name:"关于谭书",init:fill_link,content:[
-		["javascript:;","TODO:find something to put here",""],
+		["http://pan.baidu.com/share/link?shareid=302843&uk=2417293519","谭浩强《C程序设计》错误之不完全汇集","别急还没硬"],
 	]},
 	{name:"其他",init:fill_link,content:[
 		["http://tieba.baidu.com/p/13382217","原问题资料大全","vc99"],

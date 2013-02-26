@@ -1,4 +1,12 @@
 infos=[
+	{name:"新手教程",init:fill_link,content:[
+		["http://tieba.baidu.com/p/1165625989","解读御坂美琴みさか的菱形打印程序——谈如何学习算法","咱是仙人"],
+		["http://tieba.baidu.com/p/1109535412","xxx管理系统(作业党你们懂的,伸手杀无赦)","RichSelian"],
+		["http://tieba.baidu.com/p/1098980046","教你构建MinGW＋Notepad++编程环境 for C/C++","5B4B铅笔"],
+		["http://tieba.baidu.com/p/1570864020","调试指南(问问题之前请自重)","九头一存"],
+		["http://tieba.baidu.com/p/1393147869","链表","万能姬"],
+		["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""],
+	]},
 	{name:"集成开发环境",init:fill_info,content:[
 		["http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express","MS Visual C++ 2010 Express","微软出品的C/C++ IDE (Warning:2~4GB)"],
 		["http://www.codeblocks.org/","Code::Blocks","开放源码的全功能的跨平台C/C++集成开发环境"],
@@ -87,14 +95,6 @@ infos=[
 		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
 		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
 		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
-	]},
-	{name:"新手教程",init:fill_link,content:[
-		["http://tieba.baidu.com/p/1098980046","教你构建MinGW＋Notepad++编程环境 for C/C++","5B4B铅笔"],
-		//old ["http://tieba.baidu.com/p/988192757","教你构建MinGW＋Notepad++编程环境 for C/C++","5B4B铅笔"],
-		["http://tieba.baidu.com/p/1570864020","调试指南(问问题之前请自重)","九头一存"],
-		["http://tieba.baidu.com/p/1109535412","xxx管理系统(作业党你们懂的,伸手杀无赦)","RichSelian"],
-		["http://tieba.baidu.com/p/1393147869","链表","万能姬"],
-		["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""],
 	]},
 	{name:"各种教程",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1597468718","适合新手练习的几个题目，控制台不再单调呵呵（持续更新）","Geodesic"],

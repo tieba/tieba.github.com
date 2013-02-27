@@ -1,0 +1,21 @@
+关于添加项目:
+	增减数据请写到数据文件里
+
+	表格格式 javascripts/table.js
+	数据文件 javascripts/lang_c.js
+	
+	数据格式
+		{name:"标题",init:表格格式,content:[
+			内容 ,
+			... ,
+			... ,
+		],多于选项请放在这里},
+	
+	表格格式
+		fill_link:["地址","标题","作者"]
+		fill_info:["地址","标题","介绍"]
+		fill_person:["昵称","介绍"]
+		fill_qa:["Q","A"]
+	
+	注意
+		表格中所有项目均为HTML text所以请注意一下'<','>','&'等字符

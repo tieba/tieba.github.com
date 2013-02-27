@@ -78,6 +78,9 @@ function insert_table(){
 				infos[i].content=tables[infos[i].id]
 				infos[i].type(infos[i],infos[i].id)
 			}
+			if("expanding" in infos[i]&&infos[i].expanding){
+				infos[i].div.slideToggle();
+			}
 		}catch(e){}
 	}//'id="table_'+infos[i].id+'
 } 

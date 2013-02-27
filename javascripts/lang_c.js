@@ -5,8 +5,9 @@ infos=[
 		["http://tieba.baidu.com/p/1098980046","教你构建MinGW＋Notepad++编程环境 for C/C++","5B4B铅笔"],
 		["http://tieba.baidu.com/p/1570864020","调试指南(问问题之前请自重)","九头一存"],
 		["http://tieba.baidu.com/p/1393147869","链表","万能姬"],
+		["http://hi.baidu.com/misaka20001/item/d4a4144036d5fbefbdf451de","[文]某吧主的学习经历","御坂美琴みさか"],
 		["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""],
-	]},
+	],expanding:true},
 	{name:"集成开发环境",init:fill_info,content:[
 		["http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-cpp-express","MS Visual C++ 2010 Express","微软出品的C/C++ IDE (Warning:2~4GB)"],
 		["http://www.codeblocks.org/","Code::Blocks","开放源码的全功能的跨平台C/C++集成开发环境"],
@@ -24,7 +25,7 @@ infos=[
 		["http://tieba.baidu.com/p/1535637800","四则计算器(其实人都是慢慢改进的)","c_vs"],
 		["http://tieba.baidu.com/p/1894817975","LL1表达式计算器","御坂美琴みさか"],
 		["http://tieba.baidu.com/p/1941867601","C语言吧IRC频道","iyzsong"],
-		["http://tieba.baidu.com/p/1977678397","拼图游戏","忆_碎碎念"]
+		["http://tieba.baidu.com/p/1977678397","拼图游戏","忆_碎碎念"],
 	]},
 	{name:"人物简介&马甲",init:fill_person,content:[
 		["幻の上帝","圆滚滚的工口帝球葱"],

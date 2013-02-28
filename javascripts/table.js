@@ -10,6 +10,21 @@ function preproc(s){
 function init_tbody(info){
 	return $("<tbody></tbody>").appendTo($('<table width="100%" class="section_content"></table>').appendTo(info.div));
 }
+
+function fill_table(info){
+	var tbody=init_tbody(info)
+	var table=info.content;
+	for(var i=0;i!=table.length;++i){
+		var content=table[i];
+		var tr=$("<tr></tr>").appendTo(tbody);
+		for(var j=0;j!=content.length;++j){
+				$("<td align=\"left\" "+
+					(j==content.length-1?"colspan=\"100\"":"")+
+					"></td>").appendTo(tr)
+					.append(content[j]);
+		}
+	}
+}
 function fill_info(info){
 	var tbody=init_tbody(info)
 	var table=info.content;

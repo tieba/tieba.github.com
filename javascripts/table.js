@@ -60,6 +60,18 @@ function fill_qa(info){
 		$("<div style=\"display:none;\">&nbsp;&nbsp;&nbsp;&nbsp;"+(content[1]?content[1]:"----------------------").split("<br>").join("<br>&nbsp;&nbsp;&nbsp;&nbsp;")+"</div>").appendTo(td);
 	}
 }
+
+function fill_about(info){
+	var tbody=init_tbody(info)
+	var table=info.content;
+	for(var i=0;i!=table.length;++i){
+		var content=table[i];
+		var tr=$("<tr></tr>").appendTo(tbody);
+		var td=$("<td></td>").appendTo(tr);
+		$("<a href=\"javascript:;\" onclick=\"$(this).next().next().slideToggle();\">"+content[0]+"</a><br>").appendTo(td);
+		$("<div style=\"display:none;\">&nbsp;&nbsp;&nbsp;&nbsp;"+(content[1]?content[1]:"----------------------").split("<br>").join("<br>&nbsp;&nbsp;&nbsp;&nbsp;")+"</div>").appendTo(td);
+	}
+}
 function id_link(s){
 	var l=s.split("/");
 	for(var i=0;i!=s.length;++i){

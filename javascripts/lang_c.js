@@ -192,7 +192,7 @@ infos=[
 	{name:"Credits",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1941867601","IRC频道","..."],
 		["rox.html","ROX版","RichSelian"],
-		["https://github.com/hysw/tieba","本页源码","寒云似雾"],
+		["https://github.com/tieba/tieba.github.com","本页源码","寒云似雾"],
 		["https://github.com/","Hosted on GitHub Pages &mdash; Theme by <a href=\"http://twitter.com/#!/michigangraham\">mattgraham</a>",""],
 	]},
 ]

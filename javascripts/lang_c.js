@@ -27,6 +27,9 @@ infos=[
 		["http://www.debian.org/","GNU/Debian","GNU/X11/Apache/Linux/TeX/Perl/Python/FreeCiv系统"],
 		["https://www.archlinux.org/","ArchLinux","简洁主义... 新手小心..."],
 		["http://www.gentoo.org/","Gentoo Linux","新手别玩这玩意... 到时候也不迟"],
+		["http://www.redhat.com/","Redhat","是1994年开始出现的Linux发行版,面向大型机.是一个有钱人才用的面向服务器的系统"]
+		["http://www.centos.org/","CentOS","免费的Linux服务器中，一半以上使用的是CentOS"],
+		["http://fedoraproject.org/","Fedora","Redhat系中某更新率较高的系统"],
 		["http://www.apple.com.cn/osx/","MacOSX","果粉自便"],
 		["http://www.microsoft.com/zh-cn/","MS-DOS","已死,有事烧香"],
 		["http://www.microsoft.com/zh-cn/","WindowsXP","有点古老的玩意"],

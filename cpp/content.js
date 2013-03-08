@@ -1,13 +1,4 @@
 infos=[
-	{name:"新手教程",init:fill_link,content:[
-		["http://tieba.baidu.com/p/1165625989","解读御坂美琴みさか的菱形打印程序——谈如何学习算法","咱是仙人"],
-		["http://tieba.baidu.com/p/1109535412","xxx管理系统(作业党你们懂的,伸手杀无赦)","RichSelian"],
-		["http://tieba.baidu.com/p/1098980046","教你构建MinGW＋Notepad++编程环境 for C/C++","5B4B铅笔"],
-		["http://tieba.baidu.com/p/1570864020","调试指南(问问题之前请自重)","九头一存"],
-		["http://tieba.baidu.com/p/1393147869","链表","万能姬"],
-		["http://hi.baidu.com/misaka20001/item/d4a4144036d5fbefbdf451de","[文]某吧主的学习经历","御坂美琴みさか"],
-		["http://tieba.baidu.com/f/good?kw=c%2B%2B","更多请阅读'本吧精品区'",""],
-	],expanding:true},
 	
 	{name:"概念与纠错[幻の上帝]",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
@@ -76,6 +67,15 @@ infos=[
 		["http://www.editplus.com/","EditPlus","某个比较老牌的玩意[$35]"],
 		["http://www.ultraedit.com/","UltraEdit","另一个比较老牌的玩意[$60]"],
 		//["","",""],
+	]},
+	{name:"新手教程(C语言吧)",init:fill_link,content:[
+		["http://tieba.baidu.com/p/1165625989","解读御坂美琴みさか的菱形打印程序——谈如何学习算法","咱是仙人"],
+		["http://tieba.baidu.com/p/1109535412","xxx管理系统(作业党你们懂的,伸手杀无赦)","RichSelian"],
+		["http://tieba.baidu.com/p/1098980046","教你构建MinGW＋Notepad++编程环境 for C/C++","5B4B铅笔"],
+		["http://tieba.baidu.com/p/1570864020","调试指南(问问题之前请自重)","九头一存"],
+		["http://tieba.baidu.com/p/1393147869","链表","万能姬"],
+		["http://hi.baidu.com/misaka20001/item/d4a4144036d5fbefbdf451de","[文]某吧主的学习经历","御坂美琴みさか"],
+		["http://tieba.baidu.com/f/good?kw=c%2B%2B","更多请阅读'本吧精品区'",""],
 	]},
 	{name:"吧友作品(C语言吧)",init:fill_link,content:[
 		["http://code.google.com/p/comprox/","Comprox - 肉牛的压缩机","RichSelian"],

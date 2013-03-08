@@ -8,6 +8,13 @@ infos=[
 		["http://hi.baidu.com/misaka20001/item/d4a4144036d5fbefbdf451de","[文]某吧主的学习经历","御坂美琴みさか"],
 		["http://tieba.baidu.com/f/good?kw=c%2B%2B","更多请阅读'本吧精品区'",""],
 	],expanding:true},
+	
+	{name:"概念与纠错[幻の上帝]",init:fill_link,content:[
+		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
+		["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"],
+		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
+		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
+	],expanding:true},
 	{name:"关于硬件要求问题[仅参考]",init:fill_table,content:[
 		["","CPU","内存","硬盘空间","显卡"],
 		["最低配置","80368","1MiB","512MiB","-"],
@@ -139,6 +146,20 @@ infos=[
 		["有什么图形库","EGE神马的挺好的(参见吧友作品)"],
 		["学C++要多久","21天"],
 	]},
+	{name:"书籍简介(C++)",init:fill_info,content:[
+		["http://baike.baidu.com/view/963166.htm","<<C++程序设计>> <sub>谭浩强(谭老湿) 著</sub>","渣渣"],
+		["","<<C++ Primer>> <sub>by Stanley B. Lippman...</sub>","一本非常经典的入门书籍<sub>需要一定的理论基础</sub>"],
+		["","<<C++程序设计语言>> <sub>by Bjarne Stroustrup</sub>","C++作者的书"],
+		["","<<C Primer Plus>> <sub>by Stephen Prata</sub>","挺不错的无基础入门书"],
+		["","<<C++编程思想(Thinking In C++)>> <sub>by Bruce Eckel</sub>","适合研究研究"],
+		["","<<Modern C++ Design>> <sub>by Andrei Alexandrescu</sub>",""],
+		["","<<Inside The C++ Object Model>> <sub>by Stanley B. Lippman</sub>",""],
+		["","<<Effective C++>> <sub>by Scott Meyers</sub>",""],
+		["","<<Effective STL>> <sub>by Scott Meyers</sub>",""],
+		["","<<The C++ standard library>> <sub>by  Nicolai M. Josuttis</sub>",""],
+		["","<<Exceptional C++>> <sub>by Herb Sutter</sub>",""],
+		["","<<Accelerated C++>> <sub>by Andrew Koenig...</sub>",""],
+	]},
 	{name:"书籍简介(C语言)",init:fill_info,content:[
 		["http://baike.baidu.com/view/963166.htm","<<C程序设计>> <sub>谭浩强(谭老湿) 著</sub>",
 			"一本挺<b>渣</b>的书,有一堆概念错误,误导性严重<sub>话说被误导的某些家伙经常会被喷的很惨</sub>"+"<br>"+
@@ -153,11 +174,6 @@ infos=[
 		["","<<C专家编程>> <sub>by Peter van der Linden</sub>","深入地讲解了C语言的一些方面<sub>看此书得有点基础</sub>"],
 		["","<<C陷阱与缺陷>> <sub>by Andrew Koenig</sub>","如何不想被bug整死,请看这里<sub>看完入门书之后可以花几天先浏览一遍,排毒养颜</sub>"],
 		//+c programming a modern approach
-	]},
-	{name:"概念与纠错(C语言)",init:fill_link,content:[
-		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
-		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
-		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
 	]},
 	{name:"各种教程(C语言)",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1597468718","适合新手练习的几个题目，控制台不再单调呵呵（持续更新）","Geodesic"],

@@ -22,7 +22,7 @@ common_info={
 		
 		{name:"C++入门书籍",init:fill_info,content:[
 			["","<<C++ Primer>> <sub>by Stanley B. Lippman...</sub>","一本非常经典的入门书籍<sub>需要一定的理论基础</sub>"],
-			["","<<C Primer Plus>> <sub>by Stephen Prata</sub>","挺不错的无基础入门书"],
+			["","<<C++ Primer Plus>> <sub>by Stephen Prata</sub>","挺不错的无基础入门书"],
 			["","<<C++程序设计语言>> <sub>by Bjarne Stroustrup</sub>","C++作者的书"],
 		]},
 		{name:"C++进阶书籍",init:fill_info,content:[
@@ -53,7 +53,7 @@ common_info={
 			["","<<编程珠玑>> <sub>by Jon Bentley</sub>",""],
 			["","[SICP]<<计算机程序的构造和解释>> <sub>by Gerald Jay Sussman</sub>",""],
 			["","<<计算机网络>> <sub>by Andrew S. Tanenbaum</sub>",""],
-			["","<<Internetworking with TCP/IP>> <sub>by Douglas E. Comer</sub>",""],
+			["","<<用TCP/IP进行网际互连>> <sub>by Douglas E. Comer</sub>",""],
 			["","<<程序设计实践>> <sub>by Brian Kernighan...</sub>",""],
 			["","其他的请自己去Google/Baidu/Douban",""],
 		],width_f:400},

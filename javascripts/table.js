@@ -92,6 +92,20 @@ function fill_person(info){
 				.append(content[1]);
 	}
 }
+function fill_node(info){
+	var infos=info.content;
+	info.div.css("margin-left","20px");
+	for(var i=0;i!=infos.length;++i)try{
+		$('<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link"><h4>'+infos[i].name+'</h4></a>').appendTo(info.div)
+		infos[i].div=$('<div class="topic_table_div"></div>').appendTo(info.div)
+		if(infos[i].init){
+			infos[i].init(infos[i])
+		}
+		if("expanding" in infos[i]&&infos[i].expanding){
+			infos[i].div.slideToggle();
+		}
+	}catch(e){}
+}
 function insert_table(){
 	for(var i=0;i!=infos.length;++i){
 		try{

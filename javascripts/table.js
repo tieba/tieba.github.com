@@ -28,10 +28,11 @@ function fill_table(info){
 function fill_info(info){
 	var tbody=init_tbody(info)
 	var table=info.content;
+	var col_width=info.width_f||300;
 	for(var i=0;i!=table.length;++i){
 		var content=table[i];
 		var tr=$("<tr></tr>").appendTo(tbody);
-			$("<td width=\""+300+"px\" align=\"left\"></td>").appendTo(tr)
+			$("<td width=\""+col_width+"px\" align=\"left\"></td>").appendTo(tr)
 				.append("<a "+(content[0]?"target=\"_blank\" href=\""+content[0]:" href=\"javascript:;\"")+"\">"+preproc(content[1])+"</a>");
 			$("<td align=\"left\"></td>").appendTo(tr)
 				.append(content[2]);

@@ -91,8 +91,7 @@ function fill_person(info){
 			$("<td align=\"left\"></td>").appendTo(tr)
 				.append(content[1]);
 	}
-} 
-
+}
 function insert_table(){
 	for(var i=0;i!=infos.length;++i){
 		try{

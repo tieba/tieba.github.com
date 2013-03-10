@@ -1,5 +1,5 @@
 infos=[
-	{name:"权威资源",init:fill_link,content:[
+	{name:"权威资源",init:fill_info,content:[
 		["http://www.open-std.org/jtc1/sc22/wg21/","The C++ Standards Committee","ISO/IEC JTC1/SC22/WG21"],
 		["http://isocpp.org/","Standard C++ homepage", "Standard C++ Foundation"],
 		["https://groups.google.com/a/isocpp.org/forum/#!topic/std-discussion","ISO C++ Standard - Discussion", "Standard C++ Foundation"],

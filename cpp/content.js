@@ -1,11 +1,19 @@
 infos=[
-	
+	{name:"权威资源",init:fill_link,content:[
+		["http://www.open-std.org/jtc1/sc22/wg21/","The C++ Standards Committee","ISO/IEC JTC1/SC22/WG21"],
+		["http://isocpp.org/","Standard C++ homepage", "Standard C++ Foundation"],
+		["https://groups.google.com/a/isocpp.org/forum/#!topic/std-discussion","ISO C++ Standard - Discussion", "Standard C++ Foundation"],
+		["https://groups.google.com/a/isocpp.org/forum/#!forum/std-proposals","ISO C++ Standard - Future Proposals", "Standard C++ Foundation"],
+		["http://accu.org/","ACCU","ACCU"],
+		["http://www2.research.att.com/~bs/","Bjarne Stroustrup's homepage","Bjarne Stroustrup"],
+		["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"],
+	],expanding:true},
 	{name:"概念与纠错[幻の上帝]",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
 		["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"],
 		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
 		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
-	],expanding:true},
+	]},
 	common_info.books, // 书籍介绍
 	common_info.hardware, // 硬件介绍
 	common_info.operating_system, // 操作系统

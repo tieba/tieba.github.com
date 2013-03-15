@@ -34,6 +34,9 @@ common_info={
 			["","<<The C++ standard library>> <sub>by  Nicolai M. Josuttis</sub>",""],
 			["","<<Exceptional C++>> <sub>by Herb Sutter</sub>",""],
 			["","<<Accelerated C++>> <sub>by Andrew Koenig...</sub>",""],
+			["","<<Essential C++>> <sub>Stanley B. Lippman</sub>",""],
+			["","<<The C++ Standard Library>> <sub>Nicolai M. Josuttis</sub>",""],
+			
 		],width_f:400},
 		{name:"高阶内容(能看原版的去看原版去...)",init:fill_info,content:[
 			["","[CLRS]<<算法导论>> <sub>by C,L,R,S</sub>","算法方面的神书"],

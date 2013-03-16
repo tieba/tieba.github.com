@@ -69,7 +69,7 @@ infos=[
 		["DreamHL/凤凰院红旗",""],
 		["风之追梦者/梅汁追求者",""],
 		["jingyingbox",""],
-		["patricia_xiao/Carbucketty",""],
+		["patricia_xiao/Carbucketty","某pku经验收集者...<sub>祭音_INoRi 的评语: 自从来C第一次见到1K+的帖子...</sub>"],
 		["HGtz2222",""],
 		["whatofor",""],
 		["⑨chu",""],

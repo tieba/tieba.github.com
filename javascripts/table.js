@@ -87,7 +87,7 @@ function fill_person(info){
 	for(var i=0;i!=table.length;++i){
 		var content=table[i];
 		var tr=$("<tr></tr>").appendTo(tbody);
-			$("<td align=\"left\"></td>").appendTo(tr)
+			$("<td align=\"left\" style=\"max-width: 300px;\"></td>").appendTo(tr)
 				.append(id_link(content[0]));
 			$("<td align=\"left\"></td>").appendTo(tr)
 				.append(content[1]);

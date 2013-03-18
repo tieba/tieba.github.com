@@ -111,6 +111,7 @@ infos=[
 		["http://tieba.baidu.com/p/1313731304","C语言180行随机迷宫代码 详解+分析","追忆曾经_"],
 		["http://tieba.baidu.com/p/1360685329","扫雷","wysaid"],
 		["http://tieba.baidu.com/p/1972512091","〔九重的百物语之二〕A cellular compiler","守尸神主"],
+		["http://tieba.baidu.com/p/2194826437","【解】面码与万恶的商人砝码","汇蓝鸟"],
 		["http://tieba.baidu.com/p/1797769781","【新手进阶】话说那些聊天与游戏的网络交互实现","汇蓝鸟"],
 		["http://tieba.baidu.com/p/1798139204","【初入老鸟】那些网游外挂中大大小小的远程call","汇蓝鸟"],
 		["http://tieba.baidu.com/p/1852969320","【游戏编程】构架游戏中的粒子系统","汇蓝鸟"],

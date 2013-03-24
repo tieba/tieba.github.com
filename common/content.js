@@ -14,6 +14,10 @@ common_info={
 				["http://baike.baidu.com/view/611688.htm","[TCPL]<<C程序设计语言>> <sub>by Kernighan &amp; Ritchie</sub>",
 					"传说中的K&R C, 具有无上尊严的某书<sub>C语言的创造者的书,ANSI标准起源于此,有点难度</sub>"
 				],
+				["","<<C Programming: A Modern Approach>> <sub>by K. N King</sub>",
+					""
+				],
+				
 			],width_f:330},
 			{name:"进阶书籍",init:fill_info,content:[
 				["","<<C和指针>> <sub>by Kenneth Reek</sub>","对每个学C语言的人而言都是值得一看的好书<sub></sub>"],

@@ -116,8 +116,8 @@ common_info={
 	operating_system:{name:"关于操作系统[仅参考]",init:fill_info,content:[
 		["http://www.ubuntu.com/","Ubuntu","目前新手最流行的'Linux'发行版"],
 		["http://linuxmint.com/","LinuxMint","某用户友好型Linux发行版"],
-		["http://www.freebsd.org/","FreeBSD","..."],
-		["http://www.netbsd.org/","NetBSD","..."],
+		["http://www.freebsd.org/","FreeBSD","应当是目前三大BSD中最流行的一种，想玩OS的家伙可以试试(不过记住一点，BSD不是Linux)"],
+		["http://www.netbsd.org/","NetBSD","同样是三大BSD之一，据说是支持平台最多的BSD(据说代码写的很好，有兴趣的可以读读，日常使用的话驱动可能悲剧……)"],
 		["http://www.debian.org/","GNU/Debian","GNU/X11/Apache/Linux/TeX/Perl/Python/FreeCiv系统"],
 		["https://www.archlinux.org/","ArchLinux","简洁主义... 新手小心..."],
 		["http://www.gentoo.org/","Gentoo Linux","新手别玩这玩意... 到时候也不迟"],

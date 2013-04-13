@@ -20,6 +20,25 @@
 			<h1>C语言吧吧规&amp;资源索引</h1>
 		</div>
 		<div class="wrapper"><section>
+		
+			<div id="howtoask_link" class="topic_table_div">
+				<a href="../common/howtoask.html" class="topic_title_link"><h3>提问的艺术</h3></a>
+				<image src="../images/howtoask.png"></image>
+			</div>
+			<script>
+				if(window.localStorage&&window.localStorage.how_to_ask_presented){
+					$("#how_to_ask_link").slideToggle();
+				}else{
+					if(window.localStorage)
+						window.localStorage.how_to_ask_presented="true";
+					$("#howtoask_link").slideToggle("fast");
+					setTimeout(function(){
+						$("#howtoask_link").slideToggle("fast",function(){$("#howtoask_link").remove()});
+						$("#how_to_ask_link").slideToggle();
+					},5000);
+				}
+			</script>
+			
 			<a href="javascript:;" onclick="toggle_table(this);" id="admin_title_link" class="topic_title_link"><h3>本版管理组</h3></a>
 			<div class="topic_table_div">
 				<table width="100%" class="section_content"><tbody>
@@ -49,6 +68,7 @@
 				</tbody></table>
 			</div>
 			<script>toggle_table("#admin_title_link")</script>
+			<a href="../common/howtoask.html" class="topic_title_link" style="hidden" id="how_to_ask_link"><h3>提问的艺术</h3></a>
 			<a href="javascript:;" onclick="toggle_table(this);" id="rule_title_link" class="topic_title_link"><h3>吧规</h3></a>
 			<div class="topic_table_div">
 				* 本吧管理组保留吧规的修改与解释权<br>

@@ -9,6 +9,7 @@ infos=[
 		["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"],
 	],expanding:true},
 	{name:"概念与纠错[幻の上帝]",init:fill_link,content:[
+		["http://tieba.baidu.com/p/2272468675","[原创][科普]C&C++广义类型系统缺陷","幻の上帝"],
 		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
 		["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"],
 		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],

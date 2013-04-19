@@ -1,4 +1,10 @@
 common_info={
+	contact:{name:"友情贴吧&联络方式",init:fill_info,content:[
+		["http://tieba.baidu.com/f?kw=c%D3%EF%D1%D4","C语言吧",""],
+		["http://tieba.baidu.com/f?kw=c%2B%2B","C++吧",""],
+		["http://tieba.baidu.com/f?ie=utf-8&kw=C%E8%A8%80%E8%AF%AD","C言语吧",""],
+		["http://tieba.baidu.com/p/1941867601","C语言吧IRC频道","iyzsong"],
+	]},
 	books:{name:"书籍简介",init:fill_node,content:[
 		{name:"关于某些书",init:fill_info,content:[
 			["http://baike.baidu.com/view/963166.htm","<<C程序设计>> <sub>谭浩强(谭老湿) 著</sub>",
@@ -166,5 +172,17 @@ common_info={
 		["http://www.editplus.com/","EditPlus","某个比较老牌的玩意[$35]"],
 		["http://www.ultraedit.com/","UltraEdit","另一个比较老牌的玩意[$60]"],
 		//["","",""],
+	]},
+	project:{name:"吧友作品(项目)",init:fill_info,content:[
+		["http://code.google.com/p/comprox/","Comprox - 肉牛的压缩机","RichSelian"],
+		["http://code.google.com/p/yslib/","YSLib框架","幻の上帝"],
+		["http://misakamm.github.com/xege/","EGE(Easy Graphics Engine) - 炮姐的图形库","御坂美琴みさか"],
+	]},
+	about_NCRE2:{name:"关于二级",init:fill_link,content:[
+		["http://tieba.baidu.com/p/1877978397","我们为什么那么痛恨计算机等级与那些问题（二级党请进）","汇蓝鸟"],
+		["http://tieba.baidu.com/p/1213185590","建议彻底封杀二级党","serviper"],
+	]},
+	about_Tan:{name:"关于谭书",init:fill_link,content:[
+		["http://pan.baidu.com/share/link?shareid=302843&uk=2417293519","谭浩强《C程序设计》错误之不完全汇集","别急还没硬"],
 	]},
 }

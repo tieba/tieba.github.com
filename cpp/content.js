@@ -9,12 +9,23 @@ infos=[
 		["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"],
 	],expanding:true},
 	{name:"概念与纠错[幻の上帝]",init:fill_link,content:[
-		["http://tieba.baidu.com/p/2272468675","[原创][科普]C&C++广义类型系统缺陷","幻の上帝"],
-		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
-		["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"],
+		["http://tieba.baidu.com/p/1051426693","[原创]《高质量C++/C编程指南》陷阱","幻の上帝"],
 		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
 		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
+		["http://tieba.baidu.com/p/1758580031","[科普]字符串和字符串的长度","幻の上帝"],
+		["http://tieba.baidu.com/p/1912906851","[原创][科普]面向对象和所谓的“面向过程”","幻の上帝"],
+		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
+		["http://tieba.baidu.com/p/2021793275","[原创]C/C++语言学习导论(1)","幻の上帝"],
+		["http://tieba.baidu.com/p/2023656913","[原创]C/C++语言学习导论(2)","幻の上帝"],
+		["http://tieba.baidu.com/p/2092647737","百度百科低质量相关词条内容通告","幻の上帝"],
+		["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"],
 	]},
+	{name:"语言设计和演化",init:fill_link,content:[
+		["http://tieba.baidu.com/p/1025389624","c++0x右值引用,你怎么吃了一半就走了?","陆umj"],
+		["http://tieba.baidu.com/p/1026523474","c++0x右值引用,你怎么吃了一半就走了?(续)","陆umj"],
+		["http://tieba.baidu.com/p/2272468675","[原创][科普]C&C++广义类型系统缺陷","幻の上帝"],
+	]},
+	common_info.contact, // 友情贴吧&联络方式
 	common_info.books, // 书籍介绍
 	common_info.hardware, // 硬件介绍
 	common_info.operating_system, // 操作系统
@@ -28,12 +39,16 @@ infos=[
 		["http://hi.baidu.com/misaka20001/item/d4a4144036d5fbefbdf451de","[文]某吧主的学习经历","御坂美琴みさか"],
 		["http://tieba.baidu.com/f/good?kw=c%2B%2B","更多请阅读'本吧精品区'",""],
 	]},
+	{name:"原创翻译",init:fill_link,content:[
+		["http://tieba.baidu.com/p/1639526628","【译制】入门向：VC++ 中的 Lambda 表达式","candy76041820"],
+		["http://tieba.baidu.com/p/1802993336","[原创][翻译]为什么每个C程序员应该了解未定义行为#1","幻の上帝"],
+		["http://tieba.baidu.com/p/1803801220","【译制】每个 C 程序员都应知道的关于未定义行为的那点事","candy76041820"],
+		["http://tieba.baidu.com/p/1865399306","【译制】“‘差劲更好’对‘正确的事’”：到底要说啥来着？","candy76041820"],
+	]},
+	common_info.project, // 吧友作品(项目)
 	{name:"吧友作品(C语言吧)",init:fill_link,content:[
-		["http://code.google.com/p/comprox/","Comprox - 肉牛的压缩机","RichSelian"],
-		["http://misakamm.github.com/xege/","EGE(Easy Graphics Engine) - 炮姐的图形库","御坂美琴みさか"],
 		["http://tieba.baidu.com/p/1535637800","四则计算器(其实人都是慢慢改进的)","c_vs"],
 		["http://tieba.baidu.com/p/1894817975","LL1表达式计算器","御坂美琴みさか"],
-		["http://tieba.baidu.com/p/1941867601","C语言吧IRC频道","iyzsong"],
 		["http://tieba.baidu.com/p/1977678397","拼图游戏","忆_碎碎念"],
 	]},
 	{name:"吧友语录",init:fill_about,content:[
@@ -132,13 +147,8 @@ infos=[
 		["http://tieba.baidu.com/p/1906977428","【音乐编程】播放器频谱可视化与语音的智能识别思想(part 3)","汇蓝鸟"],
 		["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""],
 	]},
-	{name:"关于二级",init:fill_link,content:[
-		["http://tieba.baidu.com/p/1877978397","我们为什么那么痛恨计算机等级与那些问题（二级党请进）","汇蓝鸟"],
-		["http://tieba.baidu.com/p/1213185590","建议彻底封杀二级党","serviper"],
-	]},
-	{name:"关于谭书",init:fill_link,content:[
-		["http://pan.baidu.com/share/link?shareid=302843&uk=2417293519","谭浩强《C程序设计》错误之不完全汇集","别急还没硬"],
-	]},
+	common_info.about_NCRE2, // 关于二级
+	common_info.about_Tan, // 关于谭书
 	{name:"其他(C语言)",init:fill_link,content:[
 		["http://tieba.baidu.com/p/13382217","原问题资料大全","vc99"],
 		["http://tieba.baidu.com/p/1620654727","螺旋方阵","寒云似雾"],

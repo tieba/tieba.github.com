@@ -72,7 +72,7 @@ common_info={
 			{name:"网络编程",init:fill_info,content:[
 				["","<<TCP/IP Illustrated>> <sub>by W. Richard Stevens</sub>","TCP/IP 详解"],
 				["","<<Computer networks>> <sub>by Andrew S. Tanenbaum</sub>","计算机网络"],
-				["","<<Computer Networks and Internets>> <sub>by Douglas E. Comer</sub>","用TCP/IP进行网际互连"],
+				["","<<Internetworking With TCP/IP>> <sub>by Douglas E. Comer</sub>","用TCP/IP进行网际互连"],
 				["","[UNP]<<UNIX Network Programming>> <sub>by W. Richard Stevens</sub>","UNIX网络编程"],
 			],width_f:600},
 			{name:"计算机程序/编译原理",init:fill_info,content:[

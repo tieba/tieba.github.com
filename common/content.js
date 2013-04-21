@@ -55,7 +55,7 @@ common_info={
 		],expanding:true,},
 		{name:"高阶内容(能看原版的去看原版去...)",init:fill_node,content:[
 			{name:"数学/算法/数据结构",init:fill_info,content:[
-				["","[CLRS]<<Algorithms>> <sub>by Robert Sedgewick</sub>","算法"],
+				["","<<Algorithms>> <sub>by Robert Sedgewick</sub>","算法"],
 				["","[CLRS]<<Introduction to Algorithms>> <sub>by C,L,R,S</sub>","算法导论"],
 				["","[TAOCP]<<The Art of Computer Programming>> <sub>by Donald Knuth</sub>","计算机程序设计艺术"],
 				["","<<Concrete Mathematics: A Foundation for Computer Science>> <sub>by Donald Knuth</sub>","具体数学"],

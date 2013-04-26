@@ -83,7 +83,7 @@ infos=[
 		["gccer","史前大牛<sub>比揉揉牛更早顶着gnu的头像</sub>"],
 		["CIW_BLUE",""],
 		["矮油嫑酱紫唉","法律<sub>好似是婚姻法</sub>人士在这里"],
-		["nadesico19","<sub>日语巨触</sub>"],
+		["nadesico19","日语巨触[<a href=\"https://github.com/nadesico19\" target=\"_blank\">nadesico19</a>]"],
 		["Coding狂人","好似很久以前被气走了"],
 		["LH_Mouse_EX/乐天派的小耗子","玩窗户<sub>Win</sub>的耗吱"],
 		["Laconism","简练之格言[<a href=\"https://github.com/laconism\" target=\"_blank\">laconism</a>]"],

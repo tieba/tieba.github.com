@@ -63,7 +63,7 @@ infos=[
 		["寒云似雾/灵风竹/TetrisNoOSer","某个大水笔葱[<a href=\"https://github.com/hysw\" target=\"_blank\">hysw</a>]"],
 		["幻の上帝/FrankHB","圆滚滚的工口帝球葱[<a href=\"https://github.com/FrankHB\" target=\"_blank\">FrankHB</a>]"],
 		["御坂美琴みさか/EGE娘","misaka-传说中的炮姐[<a href=\"https://github.com/misakamm\" target=\"_blank\">misakamm</a>]"],
-		["_craftG/良化纲领_/阎魔抽/serviper/九头一存/帕斯科维/H之读姬/Razielize/oxdead/Raptor酱/扯蛋的Aria/Xenoneee/九重束风景/攻城尸_/万能姬/守尸神主/...","撸之羊驼[<a href=\"https://github.com/Akvelog\" target=\"_blank\">Akvelog</a>]<sub>妹纸：@菲西卡斯</sub>"],
+		["_craftG/良化纲领_/阎魔抽/serviper/九头一存/帕斯科维/H之读姬/Razielize/oxdead/Raptor酱/扯蛋的Aria/Xenoneee/九重束风景/攻城尸_/万能姬/守尸神主/...","撸之羊驼[<a href=\"https://github.com/Akvelog\" lank\">Akvelog</a>]"],
 		["Hope_20121221_","某个小正太[<a href=\"https://github.com/hope1\" target=\"_blank\">hope1</a>]"],
 		["汇蓝鸟","面麻<sub>酱</sub> (英文+图形+...)"],
 		["User32","被揉坏掉了的冰凉小脸"],

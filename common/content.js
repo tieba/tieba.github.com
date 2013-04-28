@@ -107,7 +107,7 @@ common_info={
 			["","数据库",""],
 			["","编程范式",""],
 		]},
-	]},
+	],expanding:true},
 	hardware:{name:"关于硬件要求问题[仅参考]",init:fill_table,content:[
 		["","CPU","内存","硬盘空间","显卡"],
 		["最低配置","80368","1MiB","512MiB","-"],

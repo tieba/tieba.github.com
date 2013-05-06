@@ -87,7 +87,7 @@ infos=[
 		["风之追梦者/梅汁追求者",""],
 		["陆umj",""],
 		["wysaid","好像在搞3D(gl还是dx)似得"],
-		["凤凰院红旗","水货一枚"],
+		["凤凰院红旗","水货一枚枚[<a href=\"https://github.com/HououinRedflag\" target=\"_blank\">HououinRedflag</a>]"],
 		["Coding狂人","好似很久以前被气走了"],
 		["阿宾和白洁","已经彻底坏掉了"],
 		["矮油嫑酱紫唉","法律<sub>好似是婚姻法</sub>人士在这里"],

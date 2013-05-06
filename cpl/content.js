@@ -91,7 +91,7 @@ infos=[
 		["EAgleLeo",""],
 		["陆umj",""],
 		["Padme0Amidala","某著名大水笔"],
-		["凤凰院红旗","[<a href=\"https://github.com/HououinRedflag\" target=\"_blank\">HououinRedflag</a>]"],
+		["凤凰院红旗","水货一枚[<a href=\"https://github.com/HououinRedflag\" target=\"_blank\">HououinRedflag</a>]"],
 		["风之追梦者/梅汁追求者",""],
 		["jingyingbox",""],
 		["patricia_xiao/Carbucketty","某pku经验收集者...<sub>祭音_INoRi 的评语: 自从来C第一次见到1K+的帖子...</sub>"],

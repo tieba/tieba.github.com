@@ -1,6 +1,6 @@
 rules=[
 	['体例说明',
-		'*为注释/tips；<b>粗体</b>表示强调；<i>斜体</i>表示约定的术语；<font style="color:red;">红字</font>表示真实的警示。',
+		'* \'*\'为注释/tips；<b>粗体</b>表示强调；<i>斜体</i>表示约定的术语；<font style="color:red;">红字</font>表示真实的警示。',
 		'* 吧务对吧规保留著作权。',
 		'* 使用<a href="http://zh.wikipedia.org/wiki/Git" target="_blank">Git</a>获取本页的修订<a href="https://github.com/tieba/tieba.github.com/tree/master/cpp" target="_blank">历史记录</a>。',
 		'* 最后修订：2013年5月19日。'

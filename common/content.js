@@ -15,7 +15,7 @@ common_info={
 		],expanding:true,},
 		{name:"C语言",init:fill_node,content:[
 			{name:"入门书籍",init:fill_info,content:[
-				["","<<C Primer Plus>> <sub>by Stephen Prata</sub>","一本很经典的入门书籍<sub>据报告有不少打字错误</sub>"],
+				["","<<C Primer Plus>> <sub>by Stephen Prata</sub>","一本很经典的入门书籍<sub>据报告有不少打字错误,某个版本在489页有一个严重的错误</sub>"],
 				["","<<C语言入门经典>> <sub>by Ivor Horton</sub>","据说是本很经典的入门书籍<sub>ps.本人没看过</sub>"],
 				["http://baike.baidu.com/view/611688.htm","[TCPL]<<C程序设计语言>> <sub>by Kernighan &amp; Ritchie</sub>",
 					"传说中的K&R C, 具有无上尊严的某书<sub>C语言的创造者的书,ANSI标准起源于此,有点难度</sub>"

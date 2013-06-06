@@ -1,3 +1,23 @@
+function load_admin(div){
+	var lnk=function(s){return '<a target="_blank" href="/i/sys/jump?un='+s+'">'+s+'</a>';}
+	div.append(
+		'<table width="100%" class="section_content"><tbody>'+
+			'<tr valign="top"><td width="40px" align="left">吧主:</td><td>'+
+				['御坂美琴みさか','顶之座__赫卡特'].map(lnk).join(" ")+
+			'</td></tr>'+
+			'<tr valign="top"><td width="40px" align="left">小吧:</td><td>'+
+				[
+					'assiss','阿喀琉斯之殇','yxyy3604','寒云似雾','RFrith'
+					,'彩色の夢∩o∩','zy123987','Hope_20121221_','Laconism','RichSelian'
+				].map(lnk).join(" ")+
+			'</td></tr>'+
+			'<tr valign="top"><td width="40px" align="left">小编:</td><td>'+
+				['EAgleLeo','EGE娘','汇蓝鸟','忆_碎碎念','橘雾华'].map(lnk).join(" ")+
+			'</td></tr>'+
+		'</tbody></table>'
+		)
+}
+
 infos=[
 	{name:"新手教程",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1165625989","解读御坂美琴みさか的菱形打印程序——谈如何学习算法","咱是仙人"],

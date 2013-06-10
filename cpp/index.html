@@ -27,36 +27,20 @@
 				<image src="../images/howtoask.png"></image>
 			</div>
 			
-			
 			<a href="javascript:;" onclick="toggle_table(this);" id="admin_title_link" class="topic_title_link"><h3>本版管理组</h3></a>
-			<div class="topic_table_div content_admin"></div>
+				<div class="topic_table_div" id="content_admin"></div>
 			
 			<a href="../common/howtoask.html" class="topic_title_link" style="hidden" id="how_to_ask_link"><h3>提问的智慧</h3></a>
+			
 			<a href="javascript:;" onclick="toggle_table(this);" id="rule_title_link" class="topic_title_link"><h3>吧规<sub>(点击收起)</sub></h3></a>
-			<div class="topic_table_div">
-				<div class="section_content content_rule"></div>
-			</div>
+				<div class="topic_table_div section_content" id="content_rule"></div>
+			
 			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
+			
 			<div id="tablearea"></div>
-			<script>
-				load_admin($(".content_admin"))
-				load_rule($(".content_rule"))
-				toggle_table("#admin_title_link")
-				toggle_table("#rule_title_link")
-				insert_table()
-				
-				if(window.localStorage&&window.localStorage.how_to_ask_presented){
-					//$("#how_to_ask_link").css("display","block");
-				}else{
-					if(window.localStorage)
-						window.localStorage.how_to_ask_presented="true";
-					$("#howtoask_link").slideToggle("fast");
-					setTimeout(function(){
-						$("#howtoask_link").slideToggle("fast",function(){$("#howtoask_link").remove()});
-						$("#how_to_ask_link").slideToggle();
-					},5000);
-				}
-			</script>
+			
+			<script>init_page()</script>
+			
 		</section></div>
 	</body>
 </html>

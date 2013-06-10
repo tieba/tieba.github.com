@@ -125,3 +125,24 @@ function insert_table(){
 		}catch(e){}
 	}//'id="table_'+infos[i].id+'
 } 
+
+
+function init_page(){
+	load_admin($("#content_admin"))
+	load_rule($("#content_rule"))
+	toggle_table("#admin_title_link")
+	toggle_table("#rule_title_link")
+	insert_table()
+	
+	if(window.localStorage&&window.localStorage.how_to_ask_presented){
+		//$("#how_to_ask_link").css("display","block");
+	}else{
+		if(window.localStorage)
+			window.localStorage.how_to_ask_presented="true";
+		$("#howtoask_link").slideToggle("fast");
+		setTimeout(function(){
+			$("#howtoask_link").slideToggle("fast",function(){$("#howtoask_link").remove()});
+			$("#how_to_ask_link").slideToggle();
+		},5000);
+	}
+}

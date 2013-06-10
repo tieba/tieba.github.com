@@ -20,8 +20,27 @@
 			<h1>C语言吧吧规&amp;资源索引</h1>
 		</div>
 		<div class="wrapper"><section>
-		
-			<div id="howtoask_link" class="topic_table_div">
+			
+			<div id="howtoask_link" class="topic_table_div" sytle="display:nome;">
+				<a href="../common/howtoask.html" class="topic_title_link"><h3>提问的智慧</h3></a>
+				<image src="../images/howtoask.png"></image>
+			</div>
+			
+			<a href="javascript:;" onclick="toggle_table(this);" id="admin_title_link" class="topic_title_link"><h3>本版管理组</h3></a>
+				<div class="topic_table_div" id="content_admin"></div>
+			
+			<a href="../common/howtoask.html" class="topic_title_link" style="hidden" id="how_to_ask_link"><h3>提问的智慧</h3></a>
+			
+			<a href="javascript:;" onclick="toggle_table(this);" id="rule_title_link" class="topic_title_link"><h3>吧规<sub>(点击收起)</sub></h3></a>
+				<div class="topic_table_div section_content" id="content_rule"></div>
+			
+			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
+			
+			<div id="tablearea"></div>
+			
+			<script>init_page()</script>
+			
+			<!--div id="howtoask_link" class="topic_table_div">
 				<a href="../common/howtoask.html" class="topic_title_link"><h3>提问的智慧</h3></a>
 				<image src="../images/howtoask.png"></image>
 			</div>
@@ -143,7 +162,7 @@
 			<script>toggle_table("#rule_title_link")</script>
 			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
 			<div id="tablearea"></div>
-			<script>insert_table()</script>
+			<script>insert_table()</script-->
 		</section></div>
 	</body>
 </html>

@@ -19,150 +19,15 @@
 		<div id="header" style="text-align:center;padding-top: 10px;height:50px;">
 			<h1>C语言吧吧规&amp;资源索引</h1>
 		</div>
-		<div class="wrapper"><section>
-			
-			<div id="howtoask_link" class="topic_table_div" sytle="display:nome;">
-				<a href="../common/howtoask.html" class="topic_title_link"><h3>提问的智慧</h3></a>
-				<image src="../images/howtoask.png"></image>
-			</div>
-			
-			<a href="javascript:;" onclick="toggle_table(this);" id="admin_title_link" class="topic_title_link"><h3>本版管理组</h3></a>
-				<div class="topic_table_div" id="content_admin"></div>
-			
-			<a href="../common/howtoask.html" class="topic_title_link" style="hidden" id="how_to_ask_link"><h3>提问的智慧</h3></a>
-			
-			<a href="javascript:;" onclick="toggle_table(this);" id="rule_title_link" class="topic_title_link"><h3>吧规<sub>(点击收起)</sub></h3></a>
-				<div class="topic_table_div section_content" id="content_rule"></div>
+		<div class="outer_wrapper"><div class="wrapper">
+		
+			<a href="../common/howtoask.html" class="topic_title_link" id="how_to_ask_link"><h3>提问的智慧</h3></a>
 			
 			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
 			
 			<div id="tablearea"></div>
 			
 			<script>init_page()</script>
-			
-			<!--div id="howtoask_link" class="topic_table_div">
-				<a href="../common/howtoask.html" class="topic_title_link"><h3>提问的智慧</h3></a>
-				<image src="../images/howtoask.png"></image>
-			</div>
-			<script>
-				if(window.localStorage&&window.localStorage.how_to_ask_presented){
-					$("#how_to_ask_link").slideToggle();
-				}else{
-					if(window.localStorage)
-						window.localStorage.how_to_ask_presented="true";
-					$("#howtoask_link").slideToggle("fast");
-					setTimeout(function(){
-						$("#howtoask_link").slideToggle("fast",function(){$("#howtoask_link").remove()});
-						$("#how_to_ask_link").slideToggle();
-					},5000);
-				}
-			</script>
-			
-			<a href="javascript:;" onclick="toggle_table(this);" id="admin_title_link" class="topic_title_link"><h3>本版管理组</h3></a>
-			<div class="topic_table_div content_admin"></div>
-			
-			<script>
-				load_admin($(".content_admin"))
-			</script>
-			
-			<script>toggle_table("#admin_title_link")</script>
-			<a href="../common/howtoask.html" class="topic_title_link" style="hidden" id="how_to_ask_link"><h3>提问的智慧</h3></a>
-			<a href="javascript:;" onclick="toggle_table(this);" id="rule_title_link" class="topic_title_link"><h3>吧规</h3></a>
-			<div class="topic_table_div">
-				* 本吧管理组保留吧规的修改与解释权<br>
-				* 请自觉遵守百度贴吧协议<br>
-				* 吧务在有合理的理由的前提下拥有以个人观点管理本吧的权利[警告/删贴/封ID/封IP]<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;　- 合理的理由包括但不仅限于:作弊,伸手,拜师,挖坟,广告,侵权,不文明言行<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;　- 谭书/VC6可不解释删除,二级党请出门右拐"二级C"吧 (这些玩意易造成各种误导)<br>
-				* 具体请阅读:<a href="javascript:;" onclick="$(this).next().next().slideToggle();">吧规细则<sub>(点击展开/收起)</sub></a><br>
-					<div class="section_content" style="display:none;">
-						<h4>以下内容可能被[删贴|封禁|黑名单]</h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;A1.计算机一/<b>二</b>/三/四级考试<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;A2.作业(包括 课程设计/各种习题/...)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;A3.伸手(任何未经努力/思考/查找各种资料的情况下)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;A4.不文明发言(任何类型的,别到处脏话)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;A5.无尊严/下限的贴('求大神'等)<br>
-						<br>
-						<h4>说明</h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;V1.二级/作业/课程设计/烂书的习题/... 定义为: 伸手/脑残<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;V2.伸手贴(包括题目/软件)禁止,请给出具体的思路等<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;V3.所有骂人的可以直接封<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;V4.请在提问前先搜索网络和书以及本吧精品区<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;V5.所有无尊严(跪求)/使用过度的称呼(求大神)的问问题者均被视为轻度脑残党<br>
-						<br>
-						<h4>封杀</h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;W1.作弊　　　　(任何类型)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;W2.广告　　　　(任何商业性或赢利性广告,特殊情况请与吧主商讨)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;W3.侵权　　　　(包括各种盗版软件)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;W4.不文明者　　(不要求河蟹但是语言文明是有必要的)<br>
-						<br>
-						<h4>可封</h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;X1.刷屏/凑字　　(任何类型)<br>
-						<br>
-						<h4>驱逐</h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;Y1.伸手　　　　(任何类型)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Y2.课程设计　　(伸手的一种)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Y3.二级考试　　(请自行移步,C语言吧是属于真正认真学习C语言的人的)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Y4.挖坟　　　　(除了精品贴之外几乎没有豁免权)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Y5.拜师　　　　(书本是最好的老师)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Y6.脑残党　　　(不解释)<br>
-						<br>
-						<h4>删除</h4>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z1.非免费/开源资源　　 (据说曾经的帖子中漫天飞舞着这种玩意,条件搜索去吧)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z2.纯拜吧贴,纯刷经验贴 (不是说不允许而是说烦人...)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z3.过分脑残的标题　　　(故意长标题,故意制造醒目效果的问题,由管理组自行确定)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z4.QQ,邮箱,群　　　　　(包括供求资源,请使用网盘)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z5.无脑问题　　　　　　(未经思考的愚蠢问题,请发这种问题的人自行搜索)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z6.坚持贴　　　　　　　(能坚持的人没必要发,不能坚持的发了也没用)<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;Z7.所有VC6/谭书/低质量视频教程有关贴(包括问题)<br>
-						<br>
-					</div>
-				* 提问请先看:<a href="/common/howtoask.html" target="_blank">提问的智慧</a>
-									<sub><a href="http://www.wapm.cn/smart-questions/smart-questions-zh.html" target="_blank">_</a></sub><br>
-
-					<div>
-						* 贴代码的地方:
-						<a href="http://gist.github.com/" target="_blank">Gist</a> |
-						<a href="http://codepad.org/" target="_blank">Codepad</a> |
-						<a href="http://ideone.com/" target="_blank">Ideone</a> |
-						<a href="http://pastebin.com/" target="_blank">Pastebin</a>|
-						<a href="http://pastebin.mozilla.org/" target="_blank">Mozilla</a>
-						
-
-					</div>
-					<div>
-						* 本吧IRC(聊天室): <a href="http://tieba.baidu.com/p/1941867601" target="_blank">介绍</a>, <a href="https://webchat.freenode.net" target="_blank">WebChat</a>[Channels: #c_lang_cn]
-					</div>
-					<div>
-					* 资源除特别说明的外均为免费/开源的
-					</div>
-					<div>
-						<div class="section_content" >
-							<font style="color:cyan;">Suggestion: 某些建议</font><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;在提问贴中说明自己做出的努力(不需要长,把自己的代码或者思路写下来(具体或者大致的都行))<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;把本文看完+看一遍提问的艺术<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;多用搜索引擎和专业的论坛(google,stackoverflow...)<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;那些Win7/8用VC6的去装VC2012 Express去(或者Code::Block/CodeLite)<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://tieba.baidu.com/p/2196360428" target="_blank">如果是不得不考二级的请看这里</a><br>
-							<font style="color:red;"><b>Error: 凡发以下类型贴者,十天循环小黑屋+黑名单不送</b></font><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;请问我不会数学英语可以学C吗？回答不可以的滚。<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;我xxxx可以学C吗？（xxxx=现在初二/现在高二/大学毕业了/工作了/是女生/残疾人/蛋痛了/...）<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;wqnmlgb<br>
-							<font style="color:red;">Warning: 凡发以下类型贴者,请去小黑屋待上一天</font><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;请问这段代码哪里有错？<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;请问C语言怎么学？<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;请问谭XX的书可以吗？<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;请问这题怎么写？<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;请问这段代码什么意思？要求简洁易懂。<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;有没有C语言QQ群？<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;小女子请问xxxxxx？<br>
-						</div>
-					</div>
-			</div>
-			<script>toggle_table("#rule_title_link")</script>
-			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
-			<div id="tablearea"></div>
-			<script>insert_table()</script-->
-		</section></div>
+		</div></div>
 	</body>
 </html>

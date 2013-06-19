@@ -99,6 +99,7 @@ infos=[
 	],expanding:true},
 	{name:"权威资源",init:fill_info,content:[
 		["http://www.open-std.org/jtc1/sc22/wg21/","The C++ Standards Committee","ISO/IEC JTC1/SC22/WG21"],
+		["https://github.com/cplusplus/draft","C++ standards drafts","ISO/IEC JTC1/SC22/WG21"],
 		["http://isocpp.org/","Standard C++ homepage", "Standard C++ Foundation"],
 		["https://groups.google.com/a/isocpp.org/forum/#!topic/std-discussion","ISO C++ Standard - Discussion", "Standard C++ Foundation"],
 		["https://groups.google.com/a/isocpp.org/forum/#!forum/std-proposals","ISO C++ Standard - Future Proposals", "Standard C++ Foundation"],
@@ -122,6 +123,7 @@ infos=[
 		["http://tieba.baidu.com/p/1025389624","c++0x右值引用,你怎么吃了一半就走了?","陆umj"],
 		["http://tieba.baidu.com/p/1026523474","c++0x右值引用,你怎么吃了一半就走了?(续)","陆umj"],
 		["http://tieba.baidu.com/p/2272468675","[原创][科普]C&C++广义类型系统缺陷","幻の上帝"],
+		["http://tieba.baidu.com/p/2403773958","[原创]转移vs复制","幻の上帝"],
 	]},
 	common_info.contact, // 友情贴吧&联络方式
 	common_info.books, // 书籍介绍

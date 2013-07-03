@@ -107,7 +107,7 @@ infos=[
 		["http://www2.research.att.com/~bs/","Bjarne Stroustrup's homepage","Bjarne Stroustrup"],
 		["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"],
 	],expanding:true},
-	{name:"概念与纠错[幻の上帝]",init:fill_link,content:[
+	{name:"概念与纠错",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1051426693","[原创]《高质量C++/C编程指南》陷阱","幻の上帝"],
 		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
 		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
@@ -116,6 +116,7 @@ infos=[
 		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
 		["http://tieba.baidu.com/p/2021793275","[原创]C/C++语言学习导论(1)","幻の上帝"],
 		["http://tieba.baidu.com/p/2023656913","[原创]C/C++语言学习导论(2)","幻の上帝"],
+		["http://tieba.baidu.com/p/2091426198","[原创]C11&C++11的赋值相关表达式求值","幻の上帝"],
 		["http://tieba.baidu.com/p/2092647737","百度百科低质量相关词条内容通告","幻の上帝"],
 		["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"],
 	]},

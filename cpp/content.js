@@ -10,6 +10,7 @@ infos=[
 			'* 部分文字以链接的形式提供相关解释或资源引用作为补充说明。若术语存在约定，含义以本吧规正文为准。',
 			'* 吧务对吧规保留著作权。',
 			'* 使用<a href="http://zh.wikipedia.org/wiki/Git" target="_blank">Git</a>获取本页的修订<a href="https://github.com/tieba/tieba.github.com/tree/master/cpp" target="_blank">历史记录</a>。',
+			'* 建议使用<a href="https://github.com/tieba/tieba.github.com/issues?state=open" target="_blank">Issue</a>和<a href="https://github.com/tieba/tieba.github.com/pulls" target="_blank">Pull Request</a>反馈对本页的意见和建议。',
 			'* 最后修订：2013年7月6日。'
 		],
 		['总则',

@@ -73,8 +73,7 @@ infos=[
 				'有没有QQ群'+
 				'<sub>(不欢迎QQ群之类的玩意，请自己找...)</sub>',
 			'[<font style="color:green">删</font><font style="color:orange">封</font>]'+
-				'小女子请问xxxxxx？'+
-				'<sub>(你不知道大吧主都是女的么，小女子是什么意思...)</sub>'
+				'小女子请问xxxxxx？'
 		],
 	],expanding:true},
 	{name:"在整理部分的吧规",id:"rules",init:fill_rule,content:[

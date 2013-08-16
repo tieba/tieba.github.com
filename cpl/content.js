@@ -1,7 +1,7 @@
 infos=[
 	{name:"本吧管理组",id:"admins",init:fill_admin,content:[
-		["吧主",['御坂美琴みさか','顶之座__赫卡特']],
-		["小吧",['assiss','阿喀琉斯之殇','yxyy3604','寒云似雾','RFrith','彩色の夢∩o∩','zy123987','Hope_20121221_','Laconism','RichSelian']],
+		["吧主",['御坂美琴みさか','顶之座__赫卡特','寒云似雾']],
+		["小吧",['assiss','阿喀琉斯之殇','yxyy3604','RFrith','彩色の夢∩o∩','zy123987','Hope_20121221_','Laconism','RichSelian','我是不是师兄']],
 		["小编",['EAgleLeo','EGE娘','汇蓝鸟','忆_碎碎念','橘雾华']],
 	],expanding:true},
 	{name:"本吧吧规",id:"rules",init:fill_rule,content:[

@@ -175,8 +175,10 @@ common_info={
 	]},
 	project:{name:"吧友作品(项目)",init:fill_info,content:[
 		["http://code.google.com/p/comprox/","Comprox - 肉牛的压缩机","RichSelian"],
-		["http://code.google.com/p/yslib/","YSLib框架","幻の上帝"],
 		["http://misakamm.github.com/xege/","EGE(Easy Graphics Engine) - 炮姐的图形库","御坂美琴みさか"],
+		["http://tieba.baidu.com/p/1535637800","四则计算器(其实人都是慢慢改进的)","c_vs"],
+		["http://tieba.baidu.com/p/1894817975","LL1表达式计算器","御坂美琴みさか"],
+		["http://tieba.baidu.com/p/1977678397","拼图游戏","忆_碎碎念"],
 	]},
 	about_NCRE2:{name:"关于二级",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1877978397","我们为什么那么痛恨计算机等级与那些问题（二级党请进）","汇蓝鸟"],

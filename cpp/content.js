@@ -147,7 +147,7 @@
 		["http://tieba.baidu.com/p/1803801220","【译制】每个 C 程序员都应知道的关于未定义行为的那点事","candy76041820"],
 		["http://tieba.baidu.com/p/1865399306","【译制】“‘差劲更好’对‘正确的事’”：到底要说啥来着？","candy76041820"],
 	]},
-	common_info.project, // 吧友作品(项目)
+	common_info.project_repo, // 吧友作品(版本库)
 	{name:"吧友作品(C语言吧)",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1535637800","四则计算器(其实人都是慢慢改进的)","c_vs"],
 		["http://tieba.baidu.com/p/1894817975","LL1表达式计算器","御坂美琴みさか"],

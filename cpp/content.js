@@ -1,4 +1,4 @@
-infos=[
+﻿infos=[
 	{name:"本吧管理组",id:"admins",init:fill_admin,content:[
 		["吧主",['飞翔的天地','关签','御坂美琴みさか']],
 		["小吧",['陆umj','幻の上帝','夜雨の离殇','寒云似雾','一群牛跑过','ZD_Tinson','RichSelian','EAgleLeo','LH_Mouse_Ex','NEMESIS_T2']],
@@ -11,7 +11,7 @@ infos=[
 			'* 吧务对吧规保留著作权。',
 			'* 使用<a href="http://zh.wikipedia.org/wiki/Git" target="_blank">Git</a>获取本页的修订<a href="https://github.com/tieba/tieba.github.com/tree/master/cpp" target="_blank">历史记录</a>。',
 			'* 建议使用<a href="https://github.com/tieba/tieba.github.com/issues?state=open" target="_blank">Issue</a>和<a href="https://github.com/tieba/tieba.github.com/pulls" target="_blank">Pull Request</a>反馈对本页的意见和建议。',
-			'* 最后修订：2013年7月13日。'
+			'* 最后修订：2013年10月8日。'
 		],
 		['总则',
 			'1.1 为保障吧友的正当权益，明确吧务的管理职责，促进良好的讨论气氛，根据<a href="http://tieba.baidu.com/tb/eula.html" target="_blank">百度《贴吧协议》</a>和<a href="http://tieba.baidu.com/tb/system.html#cnt08" target="_blank">《百度贴吧吧主制度》</a>，制定本吧规。',
@@ -69,6 +69,8 @@ infos=[
 				+'<a href="http://github.com">GitHub</a>'
 				+' | <a href="http://bitbucket.org">BitBucket</a>'
 				+' | <a href="http://code.google.com">Google Code</a>'
+				+' | <a href="http://gitcafe.com">GitCafe</a>'
+				+' | <a href="http://git.oschina.net">Git @ OSC</a>'
 			+'；或网盘（如<a href="http://pan.baidu.com">百度网盘</a>）。',
 			'5.2 把本文看完，然后看一遍《提问的艺术》。',
 			'5.3 多用搜索引擎(<a href="http://www.google.com">Google</a>)和专业的论坛(<a href="http://stackoverflow.com">StackOverflow</a>...)',

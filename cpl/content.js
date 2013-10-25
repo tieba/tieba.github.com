@@ -236,7 +236,7 @@ infos=[
 			"你真当这里是免费人肉编译器？"
 		].join("<br>")]
 	],expanding:true},
-	{name:"本吧管理组",id:"admins",init:fill_admin,content:[
+	{name:"本吧管理组",id:"people",init:fill_admin,content:[
 		["吧主",['御坂美琴みさか','顶之座__赫卡特','寒云似雾']],
 		["小吧",['assiss','阿喀琉斯之殇','yxyy3604','RFrith','zy123987','Hope_20121221_','Laconism','RichSelian','我是不是师兄','雾香_楼兰','幻の上帝','LarryGoode','Infinity_X','祭音_INoRi','关签','星月and圣冰雨','whatofor','_craftG','寒剑lhj','moehuster','忆_碎碎念','汇蓝鸟','吞薯条','⑨chu','那曲闲愁','zczqwd','阿宾和白洁','bc12358','code_新世纪','幽罹焰']],
 		["小编",['EAgleLeo','EGE娘','汇蓝鸟','忆_碎碎念','橘雾华']],

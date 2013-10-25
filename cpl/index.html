@@ -1,10 +1,8 @@
 <html>
-	<!--TODO no jquery | no javascript version -->
 	<head>
 		<title>索引</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="shortcut icon" href="http://static.tieba.baidu.com/tb/favicon.ico">
 		<link rel="stylesheet" href="../stylesheets/styles.css">
 		<link rel="stylesheet" href="../stylesheets/pygment_trac.css">
 		<link rel="stylesheet" href="../stylesheets/lang_c.css">
@@ -13,16 +11,85 @@
 		<script src="../javascripts/table.js"></script>
 		<script src="../common/content.js"></script>
 		<script src="content.js"></script>
+		
+		<style>
+		a {
+color: #ffcc00;
+font-weight: 400;
+text-decoration: none;
+}
+body{
+font-family: sans-serif;
+font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+background: #252525;
+}
+			body{
+				/*background-color:gray;*/
+			}
+			#left_container{
+				position:absolute;
+				overflow-y: auto;
+				overflow-x: hidden;
+				top:0px;
+				height:100%;
+				left:0px;
+				width:100px;
+				background-color:#555;
+				border-right:solid 5px #333;
+				border-right: 3px solid #5585c1;
+				z-index:101;
+			}
+			.memu_container{
+				padding: 0px;
+				list-style-type: none;
+				margin-top:3px;
+			}
+			
+			.menu_item{list-style-type: none;
+				display: list-item;
+				color:#FFF;
+			}
+			#left_container .memu_container .menu_item a{
+				display:block;
+				padding:3px;
+				width:94px;
+				margin-top:2px;
+				text-align:center;
+				background:#4C4C4C;
+			}
+			#left_container .memu_container .menu_item a:hover{
+				background:#393939;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="header" style="text-align:center;padding-top: 10px;height:50px;">
 			<h1>C语言吧吧规&amp;资源索引</h1>
 		</div>
-		<div class="outer_wrapper"><div class="wrapper">
 		
-			<a href="../common/howtoask.html" class="topic_title_link" id="how_to_ask_link"><h3>提问的智慧</h3></a>
-			
-			<a href="javascript:;" onclick="toggle_table_alldown();$(this).remove();"><sub>展开所有项目</sub></a>
+		<div id="left_container">
+			<ul class="memu_container">
+				<li class="menu_item"><a href="#rules">C语言吧 吧规</a></li>
+				<li class="menu_item"><a href="../common/howtoask.html">提问的智慧</a></li>
+				<li class="menu_item"><a href="#pitfalls">概念与纠错</a></li>
+				<li class="menu_item"><a href="#people">人物简介</a></li>
+				<li class="menu_item"><a href="#books">书籍简介</a></li>
+				<li class="menu_item"><a href="#nbtutorial">新手教程</a></li>
+				<li class="menu_item"><a href="#faq">常见问题</a></li>
+				<li class="menu_item"><a href="#proj">吧友作品</a></li>
+				<li class="menu_item"><a href="#contacts">友情贴吧</a></li>
+				<li class="menu_item"><a href="#contacts">联络方式</a></li>
+				<li class="menu_item"><a href="#tutorial">各种教程</a></li>
+				<li class="menu_item"><a href="#lv2">关于二级</a></li>
+				<li class="menu_item"><a href="#tan">关于谭书</a></li>
+				<li class="menu_item"><a href="#words">吧友语录</a></li>
+				<li class="menu_item"><a href="#other">其他</a></li>
+				<li class="menu_item"><a href="#credits">Credits</a></li>
+				
+			<ul>
+		</div>
+		
+		<div class="outer_wrapper"><div class="wrapper">
 			
 			<div id="tablearea"></div>
 			

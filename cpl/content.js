@@ -1,9 +1,4 @@
 infos=[
-	{name:"本吧管理组",id:"admins",init:fill_admin,content:[
-		["吧主",['御坂美琴みさか','顶之座__赫卡特','寒云似雾']],
-		["小吧",['assiss','阿喀琉斯之殇','yxyy3604','RFrith','彩色の夢∩o∩','zy123987','Hope_20121221_','Laconism','RichSelian','我是不是师兄']],
-		["小编",['EAgleLeo','EGE娘','汇蓝鸟','忆_碎碎念','橘雾华']],
-	],expanding:true},
 	{name:"本吧吧规",id:"rules",init:fill_rule,content:[
 		['总则',
 			'0.0 本吧规根据<a href="http://tieba.baidu.com/tb/system.html#cnt08" target="_blank">《百度贴吧吧主制度》</a>而制定',
@@ -194,7 +189,7 @@ infos=[
 		["http://hi.baidu.com/misaka20001/item/d4a4144036d5fbefbdf451de","[文]某吧主的学习经历","御坂美琴みさか"],
 		["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""],
 	],expanding:true},
-	{name:"给新手的Q&amp;A",init:fill_qa,content:[
+	{name:"常见问题(FAQ)",id:"faq",init:fill_qa,content:[
 		["我现在在读xx[学校/年级...]，能不能C语言",
 			"能: 如果你愿意<i>浪费</i>时间在程序的苦海之中, 有兴趣坚持走下去, 并且有一定的数学基础"+"<br>"+
 			"不能: C语言对于很多人而言<b>真的很难</b>"+"<br>"+
@@ -220,12 +215,12 @@ infos=[
 	common_info.operating_system, // 操作系统
 	common_info.software, // 软件介绍
 	common_info.project_repo, // 吧友作品(版本库)
-	{name:"吧友作品",init:fill_link,content:[
+	{name:"吧友作品",id:"proj",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1535637800","四则计算器(其实人都是慢慢改进的)","c_vs"],
 		["http://tieba.baidu.com/p/1894817975","LL1表达式计算器","御坂美琴みさか"],
 		["http://tieba.baidu.com/p/1977678397","拼图游戏","忆_碎碎念"],
-	]},
-	{name:"吧友语录",init:fill_about,content:[
+	],expanding:true},
+	{name:"吧友语录",id:"words",init:fill_about,content:[
 		["我是不是师兄:关于挂科",[
 			"好吧 我的老毛病又犯了",
 			"挂科队形 尾巴加一 C挂科",
@@ -240,7 +235,12 @@ infos=[
 			"如果能在帖子的正文中清晰有序对说明你自己的思考过程（写注释最好），和自己思考时遇到的断点，吧友们会很乐意帮忙指点的，而不是贴出一段代码就伸手要答案要结果帮忙改错。",
 			"你真当这里是免费人肉编译器？"
 		].join("<br>")]
-	]},
+	],expanding:true},
+	{name:"本吧管理组",id:"people",init:fill_admin,content:[
+		["吧主",['御坂美琴みさか','顶之座__赫卡特','寒云似雾']],
+		["小吧",['assiss','阿喀琉斯之殇','yxyy3604','RFrith','彩色の夢∩o∩','zy123987','Hope_20121221_','Laconism','RichSelian','我是不是师兄']],
+		["小编",['EAgleLeo','EGE娘','汇蓝鸟','忆_碎碎念','橘雾华']],
+	],expanding:true},
 	{name:"人物简介&马甲",init:fill_person,content:[
 		["RichTextBox/RichSelian/EGG娘","ROX-滚床压缩肉牛[<a href=\"https://github.com/richox\" target=\"_blank\">richox</a>]<sub>妹纸：某度娘HR //FIXME: @NailesHcir</sub>"],
 		["寒云似雾/灵风竹/TetrisNoOSer","某个大水笔葱[<a href=\"https://github.com/hysw\" target=\"_blank\">hysw</a>]"],
@@ -296,13 +296,13 @@ infos=[
 		["china_gll",""],
 		["萧の十三郎",""],
 		["",""],
-	]},
-	{name:"概念与纠错",init:fill_link,content:[
+	],expanding:true},
+	{name:"概念与纠错",id:"pitfalls",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
 		["http://tieba.baidu.com/p/1422487681","ISO C11附录C","幻の上帝"],
 		["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
-	]},
-	{name:"各种教程",init:fill_link,content:[
+	],expanding:true},
+	{name:"各种教程",id:"tutorial",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1597468718","适合新手练习的几个题目，控制台不再单调呵呵（持续更新）","Geodesic"],
 		["http://tieba.baidu.com/p/2025276932","对拼图问题可还原性的探究","忆_碎碎念"],
 		["http://tieba.baidu.com/p/2007516908","C语言递归调用转化为栈处理的一般式","elf0223"],
@@ -319,16 +319,16 @@ infos=[
 		["http://tieba.baidu.com/p/1885477077","【音乐编程】基于DirectSound的音乐播放与FFT频谱可视化(part 3)","汇蓝鸟"],
 		["http://tieba.baidu.com/p/1906977428","【音乐编程】播放器频谱可视化与语音的智能识别思想(part 3)","汇蓝鸟"],
 		["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""],
-	]},
+	],expanding:true},
 	common_info.about_NCRE2, // 关于二级
 	common_info.about_Tan, // 关于谭书
-	{name:"其他",init:fill_link,content:[
+	{name:"其他",id:"other",init:fill_link,content:[
 		["http://tieba.baidu.com/p/13382217","原问题资料大全","vc99"],
 		["http://tieba.baidu.com/p/1620654727","螺旋方阵","寒云似雾"],
 		["http://netlib.bell-labs.com/cm/cs/pearls/index.html","《编程珠玑》(适合有一定数据结构和算法基础的)",""],
 		["http://c-faq-chn.sourceforge.net/","C语言常见问题集/495个C语言问题",""],
-	]},
-	{name:"Credits",init:fill_link,content:[
+	],expanding:true},
+	{name:"Credits",id:"credits",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1941867601","IRC频道","..."],
 		["rox.html","ROX版","RichSelian"],
 		["https://github.com/tieba/tieba.github.com","本页源码","寒云似雾"],

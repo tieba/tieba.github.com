@@ -5,11 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="../stylesheets/styles.css">
 		<link rel="stylesheet" href="../stylesheets/pygment_trac.css">
-		<link rel="stylesheet" href="../stylesheets/lang_c.css">
+		<link rel="stylesheet" href="../stylesheets/styles_new.css">
 		<script src="../javascripts/jquery.min.js"></script>
 		<script src="../javascripts/respond.js"></script>
 		<script src="../javascripts/table.js"></script>
 		<script src="../common/content.js"></script>
+		<script src="contents.js"></script>
 		<script src="content.js"></script>
 		
 		<style>
@@ -82,7 +83,6 @@ background: #252525;
 		<!--div id="header" style="text-align:center;padding-top: 10px;height:50px;">
 			<h1>C语言吧吧规&amp;资源索引</h1>
 		</div-->
-		
 		<div id="left_container">
 			<ul class="memu_container">
 				<li class="menu_item"><a href="#rules">C语言吧 吧规</a></li>
@@ -105,6 +105,89 @@ background: #252525;
 			<ul>
 		</div>
 		<div id="right_container">
+		<a name="rules"></a>
+		<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link" style="text-align:center"><h2>本吧吧规</h2></a>
+		
+		<div class="content_card_container">
+			<div class="content_card">
+				<h4>总则</h4>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.0 本吧规根据<a href="http://tieba.baidu.com/tb/system.html#cnt08" target="_blank">《百度贴吧吧主制度》</a>而制定<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.1 本吧管理组保留吧规的修改与解释权<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.2 请自觉遵守<a href="http://tieba.baidu.com/tb/eula.html" target="_blank">《百度贴吧协议》</a><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.3 本吧规适用于<b>百度C语言吧（以下称“本吧”）</b>，自公布即日起施行。<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.4 注意言行，尊重他人就是善待自己。(所有辱骂均视为永久封紧的对象)<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.5 切勿打击新手，明白强者二字的真正含义。<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.6 伸手党/脑残党/IP党无人权。<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;0.7 吧务允许以个人意愿"合理"的使用他/她所有的权利。<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;*.* 以下内容作为总则的补充，原则上与总则相同<br>
+			</div>
+			
+			<div class="content_card">
+				<h4>发帖提示</h4>
+				&nbsp;&nbsp;&nbsp;&nbsp;* <b>请不要发任何谭书/二级考试相关内容</b><sub>(要发也请不要加上‘二级’这两个字)</sub><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 把本文看完+看一遍<a href="/common/howtoask.html" target="_blank">提问的智慧</a><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 请不要在帖子的标题上加任何的无效词(ie.大神,跪,求,急,标题要长,新手,帮忙)<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 在提问贴中说明自己做出的努力(不需要长,把自己的代码或者思路写下来(具体或者大致的都行))<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 尽量在标题中说明具体的问题/错误(ie.无法打开文件，出现乱码...)<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 发代码者请注意自己的代码格式，并且给出足够的诊断信息/截图<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 贴代码的地方:<a href="http://gist.github.com/" target="_blank">Gist</a>
+					|<a href="http://codepad.org/" target="_blank">Codepad</a>
+					|<a href="http://ideone.com/" target="_blank">Ideone</a>
+					|<a href="http://pastebin.com/" target="_blank">Pastebin</a>
+					|<a href="http://pastebin.mozilla.org/" target="_blank">Mozilla</a><br>
+			</div>
+		
+			<div class="content_card">
+				<h4>其他提示</h4>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 本吧IRC(聊天室): <a href="http://tieba.baidu.com/p/1941867601" target="_blank">介绍</a>, <a href="https://webchat.freenode.net" target="_blank">WebChat</a>[Channels: #c_lang_cn]<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 多用搜索引擎和专业的论坛(google,<a href="http://stackoverflow.com/" target="_blank">stackoverflow</a>...)<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 那些Win7/8用VC6的去装VC2012 Express去(或者Code::Block/CodeLite)<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 为课业所迫必须用VC6的可以用<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>装一个xp虚拟机然后在上面装VC6<br>
+			</div>
+		
+			<div class="content_card">
+				<h4>吧务管理</h4>&nbsp;&nbsp;&nbsp;&nbsp;1.1 <i>吧务</i>（吧主和小吧主）按<a href="http://tieba.baidu.com/tb/system.html#cnt08" target="_blank">《百度贴吧吧主制度》</a>和本吧规行使管理本吧的职权。本吧也欢迎其他吧友协助吧务进行管理，共同维护良好的讨论秩序。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.2 <i>违规行为</i>包括违反中华人民共和国法律法规、百度贴吧协议和本吧规其它条款明令禁止的事项。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.3 吧务在有合理的理由和符合本吧规规定的前提下拥有以个人观点管理本吧的权利。合理的理由包括但不限于对违规行为的处理。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.4 吧务管理本吧的操作包括警告、删贴（删除主题和/或回复）、封禁（ID或IP）等。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.5 吧务应删除构成违规行为的内容；或在存在充分理由时，指出违规后予以暂时保留。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.6 对于初次违规的吧友，吧务应进行警告。无视警告再犯者和屡教不改者应考虑封禁。故意违规、破坏吧务管理者封禁并加入黑名单。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.7 吧务在管理本吧、涉及对被管理者的操作时可以不提前通知<a href="http://baike.baidu.com/view/2410019.htm" target="_blank"><i>相对人</i></a>，但有义务回答吧友关于操作的询问，包括执行管理操作的理由。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.8 吧务人员的共识代表吧务的整体意见。吧务人员意见有分歧时，首先以本吧规的明文规定为准，协商解决。<br>&nbsp;&nbsp;&nbsp;&nbsp;2.9 对吧规或管理有疑问、查询操作记录或请求对贴子进行删除、恢复和加精等事宜，请私信或at吧务。<br>
+			</div>
+		
+			<div class="content_card">
+				<h4>讨论形式</h4>&nbsp;&nbsp;&nbsp;&nbsp;* 提问请先看：<a href="/common/howtoask.html" target="_blank">提问的艺术</a>。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.1 本吧主题为C语言及其它程序设计、软件开发、计算机科学和基础学科的一般话题，包括但不限于疑问求助、技术讨论、书籍评论、成果展示、行业新闻等。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.2 为维护讨论秩序，本吧贴子列表首页的内容一般应主要为近期活跃的和本吧主题相关的讨论内容。对此造成不利影响的行为视为<i>影响版面</i>。影响版面的贴子由吧务定性，视情况予以保留或删除，但不得以此为由封禁。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.3 <i>吧务贴</i>是吧务人员、管理操作和吧规制定及解释直接相关的讨论。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.4 除非能证明吧务管理存在过错，公开质询吧务的吧务贴被视为影响版面。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.5 讨论内容不属于本吧主题及相关内容，没有构成违规行为，也不是吧务贴的贴子为<i>水贴</i>。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.6 本吧不禁止水贴，但请注意节制，保持适当有意义的内容。不要过于频繁发水贴。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.7 通过回复、点“赞”等方式使贴子出现在首页上方的行为为<i>顶贴</i>。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.8 主题或最后回复在一个自然月前的贴子为<i>坟贴</i>。对坟贴的顶贴为<i>挖坟</i>。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.9 重复发相同内容的帖子，吧务应视情况保留其一。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.10 本吧内贴子删除功能应仅用于维护正常讨论秩序，即删除明显的违规、重复或另有约定的内容，不得用于在吧规许可的范围外作为限制特定吧友发言的手段。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.11 对于较长的主题文章需要多个连续回复进行发布时，为预防打断文章内容的<i>插楼</i>（不含楼中楼）回复，楼主可在前几楼显眼处预告删除插楼者。预告在24小时内文章内容未发布完全时，对吧务操作内容以外的实际插楼内容有效（不需要提供其它删除理由）。<br>&nbsp;&nbsp;&nbsp;&nbsp;3.12 吧务或非吧务人员在本吧删除其他正常回复的，若能提供证据，吧友有权要求删除者解释；确认误删的，吧主应予以恢复；无合理理由删除的，吧务可视情况对删除者予以警告或封禁。<br>
+			</div>
+		
+			<div class="content_card">
+				<h4>禁止内容</h4>&nbsp;&nbsp;&nbsp;&nbsp;4.1 以下行为无条件视为违规行为：作弊；伸手；侵权；（包括ID中的）不文明言行。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.2 以下行为视为违规行为，除非提前通知并得到吧务批准：拜师；对非精品主题的挖坟；广告。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.3 本吧封杀有关课程设计的贴子，包括求程序、代码、详细设计思路等。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.4 本吧不支持作弊行为，所有考试求助贴一律删除。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.5 广告内容不分私人广告和商业广告，一律删除（包括QQ群、论坛的推广等）。对和本吧主题相关的贴吧贴子和个人项目的宣传，吧务可根据具体内容不视为广告。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.6 禁止标题长度不大于4字节的主题贴。贴子内容不限制字数。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.7 禁止贴子标题故意出现吸引目光的字符（如火星文）。禁止贴子标题或内容出现大片重复或无意义文本。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.8 过于影响版面的水贴会被删除。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.9 过于影响版面的或有意的多次挖坟应被封禁。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.10 禁止发布类似任何邮箱地址分享文件的贴子。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.11 发生争吵、吧务调解无效，无视警告仍然继续的争吵贴子。<br>&nbsp;&nbsp;&nbsp;&nbsp;4.12 以下附则中规定的（典型）违规样例。<br>
+			</div>
+		
+			<div class="content_card">
+				<h4>违规样例</h4>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font>]请问我不会数学/英语/读书可以学么？ <sub>可以学，不过你会学的很想死的，先学好你的基础学科再说</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font><font style="color:orange">循环封</font><font style="color:red">黑名单</font>]...回答不可以的滚...<sub>(那么请自己离开)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font><font style="color:orange">循环封</font><font style="color:red">黑名单</font>]wqnmlgb/人渣/垃圾/白痴<sub>(不送)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font><font style="color:orange">封</font>]我xxxx可以学C语言吗？（xxxx=现在初二/现在高二/大学毕业了/工作了/是女生/残疾人/蛋痛了/...）<sub>(无意义)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font>]请问这段代码哪里有错？<sub>(麻烦把问题说清楚)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font>]请问C语言怎么学？<sub>(天知道，看书，敲代码，查资料，或者说别的请自己想)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font>]请问谭XX的书可以吗？<sub>(除非你想考二级)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font><font style="color:orange">封</font>]请问这题怎么写？<sub>(不欢迎伸手，请先自己想想)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font><font style="color:orange">封</font>]请问这段代码什么意思？<sub>(自己去想，否则请说明你自己有什么搞不清楚)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font>]有没有QQ群<sub>(不欢迎QQ群之类的玩意，请自己找...)</sub><br>&nbsp;&nbsp;&nbsp;&nbsp;[<font style="color:green">删</font><font style="color:orange">封</font>]小女子请问xxxxxx？<br>
+			</div>
+		
+			<div class="content_card">
+			</div>
+		
+			<div class="content_card">
+			</div>
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 			<div id="tablearea"></div>
 			<script>init_page()</script>
 		</div>

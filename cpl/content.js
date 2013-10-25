@@ -179,7 +179,7 @@ infos=[
 			'5.4 把本文看完，然后看一遍《提问的艺术》。',
 			'5.5 多用搜索引擎(Google)和专业的论坛(StackOverflow...)'
 		],
-	],expanding:false},
+	]},
 	{name:"新手教程",id:"nbtutorial",init:fill_link,content:[
 		["http://tieba.baidu.com/p/1165625989","解读御坂美琴みさか的菱形打印程序——谈如何学习算法","咱是仙人"],
 		["http://tieba.baidu.com/p/1109535412","xxx管理系统(作业党你们懂的,伸手杀无赦)","RichSelian"],

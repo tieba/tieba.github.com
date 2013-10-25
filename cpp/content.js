@@ -1,7 +1,7 @@
 ﻿infos=[
 	{name:"本吧管理组",id:"admins",init:fill_admin,content:[
 		["吧主",['飞翔的天地','关签','御坂美琴みさか']],
-		["小吧",['陆umj','幻の上帝','夜雨の离殇','寒云似雾','一群牛跑过','ZD_Tinson','RichSelian','EAgleLeo','LH_Mouse_Ex','NEMESIS_T2']],
+		["小吧",['陆umj','幻の上帝','夜雨の离殇','寒云似雾','一群牛跑过','ZD_Tinson','RichSelian','EAgleLeo','LH_Mouse_Ex','NEMESIS_T2','白晓生锄禾','各大水神','wsfxzxb','vture','⑨chu','戈尔_Gore','小小的KEIS','Infinity_X','LarryGoode','介个名字很威武','NinsunClosear','lxy_lixiaoyan','星月and圣冰雨','SunnyCase','四元飒','★不死鸟之翼★','sunchy12345678','我是不是师兄','Padme0Amidala']],
 		["小编",['一群牛跑过','菲西卡斯']],
 	],expanding:true},
 	{name:"本吧吧规",id:"rules",init:fill_rule,content:[

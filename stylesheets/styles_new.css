@@ -72,3 +72,68 @@ body{
 h2,h3{
 	text-align:center;
 }
+
+
+		a {
+color: #ffcc00;
+font-weight: 400;
+text-decoration: none;
+}
+body{
+font-family: sans-serif;
+font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+background: #252525;
+}
+			body{
+				/*background-color:gray;*/
+			}
+			#left_container{
+				position:fixed;
+				overflow-y: auto;
+				overflow-x: hidden;
+				top:0px;
+				height:100%;
+				left:0px;
+				width:97px;
+				background-color:#555;
+				border-right:solid 5px #333;
+				border-right: 3px solid #5585c1;
+				z-index:101;
+			}
+			.memu_container{
+				padding: 0px;
+				list-style-type: none;
+				margin-top:3px;
+			}
+			
+			.menu_item{list-style-type: none;
+				display: list-item;
+				color:#FFF;
+			}
+			#left_container .memu_container .menu_item a{
+				display:block;
+				padding:3px;
+				width:91px;
+				margin-top:2px;
+				text-align:center;
+				background:#4C4C4C;
+			}
+			#left_container .memu_container .menu_item a:hover{
+				background:#393939;
+			}
+			
+			.outer_wrapper{
+				left:100px;
+				right:0px;
+				width:auto;
+			}
+			#right_container{
+				position: absolute;
+				top:0;
+				bottom:0;
+				left:100px;
+				right:0px;
+				width:auto;
+				padding:10px;
+				overflow:auto;
+			}

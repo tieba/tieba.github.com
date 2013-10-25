@@ -27,7 +27,7 @@ background: #252525;
 				/*background-color:gray;*/
 			}
 			#left_container{
-				position:absolute;
+				position:fixed;
 				overflow-y: auto;
 				overflow-x: hidden;
 				top:0px;
@@ -66,12 +66,22 @@ background: #252525;
 				right:0px;
 				width:auto;
 			}
+			#right_container{
+				position: absolute;
+				top:0;
+				bottom:0;
+				left:100px;
+				right:0px;
+				width:auto;
+				padding:10px;
+				overflow:auto;
+			}
 		</style>
 	</head>
 	<body>
-		<div id="header" style="text-align:center;padding-top: 10px;height:50px;">
+		<!--div id="header" style="text-align:center;padding-top: 10px;height:50px;">
 			<h1>C语言吧吧规&amp;资源索引</h1>
-		</div>
+		</div-->
 		
 		<div id="left_container">
 			<ul class="memu_container">
@@ -94,12 +104,9 @@ background: #252525;
 				
 			<ul>
 		</div>
-		
-		<div class="outer_wrapper"><div class="wrapper">
-			
+		<div id="right_container">
 			<div id="tablearea"></div>
-			
 			<script>init_page()</script>
-		</div></div>
+		</div>
 	</body>
 </html>

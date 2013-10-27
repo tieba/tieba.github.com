@@ -42,7 +42,7 @@ initfuncs={
 }
 
 def tbid(s):
-	return '<a href="#">%s</a>'%(s)
+	return '<a href="http://tieba.baidu.com/home/main?un=%s&fr=frs&ie=utf-8">%s</a>'%(s,s)
 
 def html(info):
 	return ("<html>",[head(info["head"]),body(info["body"])],"</html>")

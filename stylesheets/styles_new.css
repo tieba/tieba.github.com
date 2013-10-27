@@ -77,7 +77,7 @@ color: #ffcc00;
 font-weight: 400;
 text-decoration: none;
 }
-body,right_container{
+body,#right_container{
 font-family: sans-serif;
 font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 background: #252525;

@@ -6,7 +6,7 @@
 
 	数据:
 		./cpl/content.json
-		./cpp/content.jsoin
+		./cpp/content.json
 	
 	数据格式: 基础
 		{name:"标题",content:[

@@ -1,21 +1,25 @@
 关于添加项目:
 	增减数据请写到数据文件里
 
-	表格格式 javascripts/table.js
-	数据文件 javascripts/lang_c.js
+	更新之后:
+		bash update.sh
+
+	数据:
+		./cpl/content.json
+		./cpp/content.jsoin
 	
-	数据格式
-		{name:"标题",init:表格格式,content:[
+	数据格式: 基础
+		{name:"标题",content:[
 			内容 ,
 			... ,
 			... ,
 		],多于选项请放在这里},
 	
-	表格格式
-		fill_link:["地址","标题","作者"]
-		fill_info:["地址","标题","介绍"]
-		fill_person:["昵称","介绍"]
-		fill_qa:["Q","A"]
+	数据格式: [link,name,desc]
+	{"name":"the name","type":"linkdesc-block","content":[
+		[link',name',desc'],
+		[link'',name'',desc'']
+	]},
 	
 	注意
 		表格中所有项目均为HTML text所以请注意一下'<','>','&'等字符

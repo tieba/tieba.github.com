@@ -13,7 +13,9 @@
 			"../javascripts/table.js",
 			"../common/content.js",
 			"content.js"
-		]
+		],
+		"stylesheet-mobile":[],
+		"javascript-mobile":[]
 	},
 	"body":[
 		{"name":"本吧吧规","side-name":"C语言吧 吧规","link":"rules",
@@ -318,7 +320,7 @@
 					["","《算法竞赛入门经典》 <sub>by 刘汝佳</sub>",""]
 				]}
 			]},
-			{"name":"暫缺","type":"linkdesc-block","hide":"","content":[
+			{"name":"暫缺","type":"linkdesc-block","hide":"force","content":[
 				["","Windows相关物","Windows kernel/MFC..."],
 				["","GUI","Qt/Gtk/Tk/Motif..."],
 				["","计算机图形","专业书籍/OpenGL/DirectX"],

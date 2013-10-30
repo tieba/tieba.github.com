@@ -98,6 +98,7 @@
 				"B.7 小女子请问xxxxxx？"
 			]}
 		]},
+		{"name":"提问的智慧","type":"link-only","link":"../common/howtoask.html"},
 		{"name":"资料和教程","link":"tutorials","content":[
 			{"name":"权威资源","type":"linkdesc-block","content":[
 				["http://www.open-std.org/jtc1/sc22/wg21/","The C++ Standards Committee","ISO/IEC JTC1/SC22/WG21"],

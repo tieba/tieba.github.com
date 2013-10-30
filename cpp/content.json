@@ -19,15 +19,96 @@
 	},
 	"body":[
 		{"name":"本吧吧规","side-name":"C++吧 吧规","link":"rules","content":[
-			{"name":"体例说明","content":["* '*'为注释/tips；<b>粗体</b>表示强调；<i>斜体</i>表示约定的术语；<a href=\"http://zh.wikipedia.org/zh-cn/%E6%B5%B7%E8%B2%93%E9%B3%B4%E6%B3%A3%E6%99%82#.E7.94.A8.E8.AF.AD.E8.A7.A3.E8.AF.B4\" target=\"_blank\"><font style=\"color:red;\">红字</font></a>表示真实的警示。","* 部分文字以链接的形式提供相关解释或资源引用作为补充说明。若术语存在约定，含义以本吧规正文为准。","* 吧务对吧规保留著作权。","* 使用<a href=\"http://zh.wikipedia.org/wiki/Git\" target=\"_blank\">Git</a>获取本页的修订<a href=\"https://github.com/tieba/tieba.github.com/tree/master/cpp\" target=\"_blank\">历史记录</a>。","* 建议使用<a href=\"https://github.com/tieba/tieba.github.com/issues?state=open\" target=\"_blank\">Issue</a>和<a href=\"https://github.com/tieba/tieba.github.com/pulls\" target=\"_blank\">Pull Request</a>反馈对本页的意见和建议。","* 最后修订：2013年10月29日。"]},
-			["总则","1.1 为保障吧友的正当权益，明确吧务的管理职责，促进良好的讨论气氛，根据<a href=\"http://tieba.baidu.com/tb/eula.html\" target=\"_blank\">百度《贴吧协议》</a>和<a href=\"http://tieba.baidu.com/tb/system.html#cnt08\" target=\"_blank\">《百度贴吧吧主制度》</a>，制定本吧规。","1.2 本吧规适用于<b>百度C++吧（以下称“<i>本吧</i>”）</b>，自公布即日起施行。","1.3 请自觉遵守百度贴吧协议。","1.4 注意言行，尊重他人就是善待自己。","1.5 切勿打击新手，明白强者二字的真正含义。","1.6 <a href=\"http://baike.baidu.com/view/1107286.htm\" target=\"_blank\"><i>IP党</i></a>无人权。"],
-			["吧务管理","2.1 <i>吧务</i>（本吧管理组）按《百度贴吧吧主制度》和本吧规行使管理本吧的职权。本吧也欢迎其他吧友协助吧务进行管理，共同维护良好的讨论秩序。","2.2 <i>违规行为</i>包括违反中华人民共和国法律法规、百度贴吧协议和本吧规其它条款明令禁止的事项。","2.3 吧务在有合理的理由和符合本吧规规定的前提下拥有以个人观点管理本吧的权利。合理的理由包括但不限于对违规行为的处理。","2.4 吧务在有必要时可以通过利用贴吧系统授权的操作进行管理。操作涉及处理的对象（<a href=\"http://baike.baidu.com/view/2410019.htm\" target=\"_blank\"><i>相对人</i></a>）包括<a href=\"http://baike.baidu.com/view/22657.htm\" target=\"_blank\"><i>当事人</i></a>的贴吧<i>ID</i>、能被证明直接有关联的一个或多个<i>傀儡账户</i>（“<i>马甲</i>”）或IP等。吧务管理本吧的操作包括警告、删贴（删除主题和/或回复）、封禁、添加黑名单等。","2.5 吧务应删除构成违规行为的内容；或在存在充分理由时，指出违规后予以保留。","2.6 对于初次违规的吧友，吧务应进行警告。无视警告再犯者和屡教不改者应考虑封禁。故意违规、破坏吧务管理者封禁并加入黑名单。","2.7 吧务在管理本吧、涉及对被管理者的操作时可以不提前通知相对人，但有义务回答吧友关于操作的询问，包括执行管理操作的理由。","2.8 吧务人员的共识代表吧务的整体意见。吧务人员意见有分歧时，首先以本吧规的明文规定为准，协商解决。","2.9 对吧规或管理有疑问、查询操作记录或请求对贴子进行删除、恢复和加精等事宜，请<a href=\"#contacts\">自行联系</a>吧务。"],
-			["讨论形式","* 提问请先看：<a href=\"/common/howtoask.html\" target=\"_blank\">提问的艺术</a>。","3.1 本吧主题为C++及其它程序设计、软件开发、计算机科学和相关基础学科的一般话题，包括但不限于疑问求助、技术讨论、书籍评论、成果展示、行业新闻等。","3.2 为维护讨论秩序，本吧贴子列表首页的内容一般应主要为近期活跃的和本吧主题相关的讨论内容。对此造成不利影响的行为视为<i>影响版面</i>。影响版面的主题或回复由吧务定性，视情况予以保留或删除，但不得以此为由封禁。","3.3 <i>吧务贴</i>是对吧务人员、管理操作和吧规制定及解释直接相关的讨论或吧务对此的公告。","3.4 除非能证明吧务管理存在过错，公开质询吧务的吧务贴被视为影响版面。","3.5 讨论内容不属于本吧主题及相关内容，没有构成违规行为，也不是吧务贴的贴子为<i>水贴</i>。","3.6 本吧不禁止水贴，但请注意节制，保持适当有意义的内容。不要过于频繁发水贴。","3.7 通过回复、点“赞”等方式使贴子出现在首页上方的行为为<i>顶贴</i>。","3.8 主题或最后回复在一个自然月前的贴子为<i>坟贴</i>。对坟贴的顶贴为<a href=\"http://baike.baidu.com/view/705635.htm\"><i>挖坟</i></a>。","3.9 同一个ID在短时间内重复（连续或可认为有意连续，下同）发布相同的内容主题或回复，吧务应视情况保留其一。不同ID在短时间内发布相同的内容（“<i>撞车</i>”），吧务应视情况删除或保留。","3.10 本吧内贴子删除功能应仅用于维护正常讨论秩序，即删除明显的违规、重复或另有约定的内容，不得用于在吧规许可的范围外作为限制特定吧友发言的手段。","3.11 发布主题贴的<i>楼主</i>（可被简称<i>LZ</i>等）对主题内容负责，有权对主题内偏离主旨的讨论作出提醒，但在吧规允许外不得以此为由擅自删除内容。","3.12 对于较长的主题文章多个连续回复进行发布时，为预防打断文章内容的<i>插楼</i>（不含楼中楼）回复，楼主可在前10楼内发布醒目提示预告删除插楼者。预告在24小时内文章内容未宣布发布完全时，对吧务操作内容以外的实际插楼内容及其楼中楼有效，即删除不需要提供其它理由。","3.13 在本吧删除未被禁止的正常回复的，若能提供证据，吧友有权要求删除者解释；确认误删的，吧主应予以恢复；无合理理由删除的，吧务可视情况对删除者予以警告或封禁。"],
-			["禁止事项","4.1 以下按照内容可以明确判断的行为无条件视为违规行为：作弊；伸手（无偿要求解答问题且没有给出自身尝试解决问题的过程）；侵权；不文明言行（包括ID中出现侮辱性称谓的）；吧务调解无效、无视警告仍然继续的争吵。","4.2 以下行为视为违规行为，除非提前通知并得到吧务批准：拜师；对非精品主题的挖坟；广告；使用仿冒吧务的ID；标题长度不大于2个字符的主题贴；贴子标题故意出现吸引目光的字符（如火星文）；贴子标题或内容出现大片重复或无意义文本；要求回复留邮箱或 QQ 等联系方式来分享资源的；回复邮箱或 QQ 等联系方式试图获取资源的。","4.3 散布和本吧主题相关的、能通过权威依据查证明确的错误内容，教唆学习错误内容，可预见或已经产生严重误导的贴子内容会视情节被警告或作为违规行为。","4.4 本吧不支持作弊行为，所有考试求助贴一律删除。","4.5 广告内容不分私人广告和商业广告（包括QQ群、论坛的推广等），一律删除。对和本吧主题相关的贴吧贴子和个人项目的宣传，吧务可根据具体内容不视为广告。","4.6 过于影响版面的水贴会被删除。","4.7 过于影响版面的或有意的多次挖坟应被封禁。","4.8 以下附则中规定的（典型）<a href=\"#rules-violation-example\">违规样例</a>。","4.9 凡回复中使用复制的长篇无意义的用来赚取经验的内容将被删除"],
-			["发贴建议","5.1 发代码者请注意自己的代码格式。注意百度一般无法保证代码的缩进和对齐，对阅读带来不便时应该尽量避免直接贴代码。替代手段：短代码请贴<a href=\"http://gist.github.com/\" target=\"_blank\">Gist</a> | <a href=\"http://codepad.org/\" target=\"_blank\">Codepad</a> | <a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a> | <a href=\"http://pastebin.com/\" target=\"_blank\">Pastebin</a>，长代码或项目文件推荐公开的在线代码托管服务，如<a href=\"http://github.com\">GitHub</a> | <a href=\"http://bitbucket.org\">BitBucket</a> | <a href=\"http://code.google.com\">Google Code</a> | <a href=\"http://gitcafe.com\">GitCafe</a> | <a href=\"http://git.oschina.net\">Git @ OSC</a>；或网盘（如<a href=\"http://pan.baidu.com\">百度网盘</a>）。","5.2 把本文看完，然后看一遍《提问的艺术》。","5.3 多用搜索引擎(<a href=\"http://www.google.com\">Google</a>)和专业的论坛(<a href=\"http://stackoverflow.com\">StackOverflow</a>...)","5.4 在提问前尝试自己解决问题。例如编译失败多数是由于自己的粗心大意造成的，自己读编译器输出的诊断消息就能解决。","5.5 在提问贴中说明自己做出的努力（不需要长，例如把自己的代码或者思路写下来，已经搜索过的关键字等）。","5.6 注意表达的清晰简洁。长且不带任何注释说明的代码容易让人不适。请给出关键的代码，或指出可能造成问题的部分。"],["<a name=\"contacts\">联系方式</a>","6.1 本吧官方群：19782472（其中有一堆基佬），不定期开放申请。","6.2 善用<a href=\"http://msg.baidu.com\">私信</a>。","6.3 合理使用贴吧的at（“@”+ID）功能。"],["<a name=\"rules-violation-example\">违规样例</a>","<font style=\"color:red;\"><b>凡发以下类型贴者，十天循环小黑屋+黑名单不送。</b></font>","A.1 请问我不会数学英语可以学C++吗？回答不可以的滚。","A.2 我xxxx可以学C++吗？（xxxx=现在初二/现在高二/大学毕业了/工作了/是女生/残疾人/蛋痛了/...）","A.3 wqnmlgb","<font style=\"color:red;\">凡发以下类型贴者，请去小黑屋待上一天。</font>","B.1 请问这段代码哪里有错？","B.2 请问C++怎么学？","B.3 请问谭XX的书可以吗？","B.4 请问这题怎么写？","B.5 请问这段代码什么意思？要求简洁易懂。","B.6 有没有C++QQ群？","B.7 小女子请问xxxxxx？"]],"expanding":true},
+			{"name":"体例说明","content":[
+				"* '*'为注释/tips；<b>粗体</b>表示强调；<i>斜体</i>表示约定的术语；<a href=\"http://zh.wikipedia.org/zh-cn/%E6%B5%B7%E8%B2%93%E9%B3%B4%E6%B3%A3%E6%99%82#.E7.94.A8.E8.AF.AD.E8.A7.A3.E8.AF.B4\" target=\"_blank\"><font style=\"color:red;\">红字</font></a>表示真实的警示。",
+				"* 部分文字以链接的形式提供相关解释或资源引用作为补充说明。若术语存在约定，含义以本吧规正文为准。",
+				"* 吧务对吧规保留著作权。",
+				"* 使用<a href=\"http://zh.wikipedia.org/wiki/Git\" target=\"_blank\">Git</a>获取本页的修订<a href=\"https://github.com/tieba/tieba.github.com/tree/master/cpp\" target=\"_blank\">历史记录</a>。","* 建议使用<a href=\"https://github.com/tieba/tieba.github.com/issues?state=open\" target=\"_blank\">Issue</a>和<a href=\"https://github.com/tieba/tieba.github.com/pulls\" target=\"_blank\">Pull Request</a>反馈对本页的意见和建议。","* 最后修订：2013年10月29日。"
+			]},
+			{"name":"总则","content":[
+				"1.1 为保障吧友的正当权益，明确吧务的管理职责，促进良好的讨论气氛，根据<a href=\"http://tieba.baidu.com/tb/eula.html\" target=\"_blank\">百度《贴吧协议》</a>和<a href=\"http://tieba.baidu.com/tb/system.html#cnt08\" target=\"_blank\">《百度贴吧吧主制度》</a>，制定本吧规。",
+				"1.2 本吧规适用于<b>百度C++吧（以下称“<i>本吧</i>”）</b>，自公布即日起施行。",
+				"1.3 请自觉遵守百度贴吧协议。",
+				"1.4 注意言行，尊重他人就是善待自己。",
+				"1.5 切勿打击新手，明白强者二字的真正含义。",
+				"1.6 <a href=\"http://baike.baidu.com/view/1107286.htm\" target=\"_blank\"><i>IP党</i></a>无人权。"
+			]},
+			{"name":"吧务管理","content":[
+				"2.1 <i>吧务</i>（本吧管理组）按《百度贴吧吧主制度》和本吧规行使管理本吧的职权。本吧也欢迎其他吧友协助吧务进行管理，共同维护良好的讨论秩序。",
+				"2.2 <i>违规行为</i>包括违反中华人民共和国法律法规、百度贴吧协议和本吧规其它条款明令禁止的事项。",
+				"2.3 吧务在有合理的理由和符合本吧规规定的前提下拥有以个人观点管理本吧的权利。合理的理由包括但不限于对违规行为的处理。",
+				"2.4 吧务在有必要时可以通过利用贴吧系统授权的操作进行管理。操作涉及处理的对象（<a href=\"http://baike.baidu.com/view/2410019.htm\" target=\"_blank\"><i>相对人</i></a>）包括<a href=\"http://baike.baidu.com/view/22657.htm\" target=\"_blank\"><i>当事人</i></a>的贴吧<i>ID</i>、能被证明直接有关联的一个或多个<i>傀儡账户</i>（“<i>马甲</i>”）或IP等。吧务管理本吧的操作包括警告、删贴（删除主题和/或回复）、封禁、添加黑名单等。",
+				"2.5 吧务应删除构成违规行为的内容；或在存在充分理由时，指出违规后予以保留。",
+				"2.6 对于初次违规的吧友，吧务应进行警告。无视警告再犯者和屡教不改者应考虑封禁。故意违规、破坏吧务管理者封禁并加入黑名单。",
+				"2.7 吧务在管理本吧、涉及对被管理者的操作时可以不提前通知相对人，但有义务回答吧友关于操作的询问，包括执行管理操作的理由。",
+				"2.8 吧务人员的共识代表吧务的整体意见。吧务人员意见有分歧时，首先以本吧规的明文规定为准，协商解决。",
+				"2.9 对吧规或管理有疑问、查询操作记录或请求对贴子进行删除、恢复和加精等事宜，请<a href=\"#contacts\">自行联系</a>吧务。"
+			]},
+			{"name":"讨论形式","content":[
+				"* 提问请先看：<a href=\"/common/howtoask.html\" target=\"_blank\">提问的艺术</a>。",
+				"3.1 本吧主题为C++及其它程序设计、软件开发、计算机科学和相关基础学科的一般话题，包括但不限于疑问求助、技术讨论、书籍评论、成果展示、行业新闻等。",
+				"3.2 为维护讨论秩序，本吧贴子列表首页的内容一般应主要为近期活跃的和本吧主题相关的讨论内容。对此造成不利影响的行为视为<i>影响版面</i>。影响版面的主题或回复由吧务定性，视情况予以保留或删除，但不得以此为由封禁。","3.3 <i>吧务贴</i>是对吧务人员、管理操作和吧规制定及解释直接相关的讨论或吧务对此的公告。",
+				"3.4 除非能证明吧务管理存在过错，公开质询吧务的吧务贴被视为影响版面。",
+				"3.5 讨论内容不属于本吧主题及相关内容，没有构成违规行为，也不是吧务贴的贴子为<i>水贴</i>。",
+				"3.6 本吧不禁止水贴，但请注意节制，保持适当有意义的内容。不要过于频繁发水贴。",
+				"3.7 通过回复、点“赞”等方式使贴子出现在首页上方的行为为<i>顶贴</i>。",
+				"3.8 主题或最后回复在一个自然月前的贴子为<i>坟贴</i>。对坟贴的顶贴为<a href=\"http://baike.baidu.com/view/705635.htm\"><i>挖坟</i></a>。",
+				"3.9 同一个ID在短时间内重复（连续或可认为有意连续，下同）发布相同的内容主题或回复，吧务应视情况保留其一。不同ID在短时间内发布相同的内容（“<i>撞车</i>”），吧务应视情况删除或保留。",
+				"3.10 本吧内贴子删除功能应仅用于维护正常讨论秩序，即删除明显的违规、重复或另有约定的内容，不得用于在吧规许可的范围外作为限制特定吧友发言的手段。",
+				"3.11 发布主题贴的<i>楼主</i>（可被简称<i>LZ</i>等）对主题内容负责，有权对主题内偏离主旨的讨论作出提醒，但在吧规允许外不得以此为由擅自删除内容。",
+				"3.12 对于较长的主题文章多个连续回复进行发布时，为预防打断文章内容的<i>插楼</i>（不含楼中楼）回复，楼主可在前10楼内发布醒目提示预告删除插楼者。预告在24小时内文章内容未宣布发布完全时，对吧务操作内容以外的实际插楼内容及其楼中楼有效，即删除不需要提供其它理由。",
+				"3.13 在本吧删除未被禁止的正常回复的，若能提供证据，吧友有权要求删除者解释；确认误删的，吧主应予以恢复；无合理理由删除的，吧务可视情况对删除者予以警告或封禁。"
+			]},
+			{"name":"禁止事项","content":[
+				"4.1 以下按照内容可以明确判断的行为无条件视为违规行为：作弊；伸手（无偿要求解答问题且没有给出自身尝试解决问题的过程）；侵权；不文明言行（包括ID中出现侮辱性称谓的）；吧务调解无效、无视警告仍然继续的争吵。",
+				"4.2 以下行为视为违规行为，除非提前通知并得到吧务批准：拜师；对非精品主题的挖坟；广告；使用仿冒吧务的ID；标题长度不大于2个字符的主题贴；贴子标题故意出现吸引目光的字符（如火星文）；贴子标题或内容出现大片重复或无意义文本；要求回复留邮箱或 QQ 等联系方式来分享资源的；回复邮箱或 QQ 等联系方式试图获取资源的。",
+				"4.3 散布和本吧主题相关的、能通过权威依据查证明确的错误内容，教唆学习错误内容，可预见或已经产生严重误导的贴子内容会视情节被警告或作为违规行为。",
+				"4.4 本吧不支持作弊行为，所有考试求助贴一律删除。",
+				"4.5 广告内容不分私人广告和商业广告（包括QQ群、论坛的推广等），一律删除。对和本吧主题相关的贴吧贴子和个人项目的宣传，吧务可根据具体内容不视为广告。",
+				"4.6 过于影响版面的水贴会被删除。",
+				"4.7 过于影响版面的或有意的多次挖坟应被封禁。",
+				"4.8 以下附则中规定的（典型）<a href=\"#rules-violation-example\">违规样例</a>。",
+				"4.9 凡回复中使用复制的长篇无意义的用来赚取经验的内容将被删除"
+			]},
+			{"name":"发贴建议","content":[
+				"5.1 发代码者请注意自己的代码格式。注意百度一般无法保证代码的缩进和对齐，对阅读带来不便时应该尽量避免直接贴代码。替代手段：短代码请贴<a href=\"http://gist.github.com/\" target=\"_blank\">Gist</a> | <a href=\"http://codepad.org/\" target=\"_blank\">Codepad</a> | <a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a> | <a href=\"http://pastebin.com/\" target=\"_blank\">Pastebin</a>，长代码或项目文件推荐公开的在线代码托管服务，如<a href=\"http://github.com\">GitHub</a> | <a href=\"http://bitbucket.org\">BitBucket</a> | <a href=\"http://code.google.com\">Google Code</a> | <a href=\"http://gitcafe.com\">GitCafe</a> | <a href=\"http://git.oschina.net\">Git @ OSC</a>；或网盘（如<a href=\"http://pan.baidu.com\">百度网盘</a>）。",
+				"5.2 把本文看完，然后看一遍《提问的艺术》。",
+				"5.3 多用搜索引擎(<a href=\"http://www.google.com\">Google</a>)和专业的论坛(<a href=\"http://stackoverflow.com\">StackOverflow</a>...)",
+				"5.4 在提问前尝试自己解决问题。例如编译失败多数是由于自己的粗心大意造成的，自己读编译器输出的诊断消息就能解决。",
+				"5.5 在提问贴中说明自己做出的努力（不需要长，例如把自己的代码或者思路写下来，已经搜索过的关键字等）。",
+				"5.6 注意表达的清晰简洁。长且不带任何注释说明的代码容易让人不适。请给出关键的代码，或指出可能造成问题的部分。"
+			]},
+			{"name":"<a name=\"contacts\">联系方式</a>","content":[
+				"6.1 本吧官方群：19782472（其中有一堆基佬），不定期开放申请。",
+				"6.2 善用<a href=\"http://msg.baidu.com\">私信</a>。",
+				"6.3 合理使用贴吧的at（“@”+ID）功能。"
+			]},
+			{"name":"<a name=\"rules-violation-example\">违规样例</a>","content":[
+				"<font style=\"color:red;\"><b>凡发以下类型贴者，十天循环小黑屋+黑名单不送。</b></font>",
+				"A.1 请问我不会数学英语可以学C++吗？回答不可以的滚。",
+				"A.2 我xxxx可以学C++吗？（xxxx=现在初二/现在高二/大学毕业了/工作了/是女生/残疾人/蛋痛了/...）",
+				"A.3 wqnmlgb",
+				"<font style=\"color:red;\">凡发以下类型贴者，请去小黑屋待上一天。</font>",
+				"B.1 请问这段代码哪里有错？",
+				"B.2 请问C++怎么学？",
+				"B.3 请问谭XX的书可以吗？",
+				"B.4 请问这题怎么写？",
+				"B.5 请问这段代码什么意思？要求简洁易懂。",
+				"B.6 有没有C++QQ群？",
+				"B.7 小女子请问xxxxxx？"
+			]}
+		]},
 		{"name":"资料和教程","link":"tutorials","content":[
 			{"name":"权威资源","type":"linkdesc-block","content":[
-				["http://www.open-std.org/jtc1/sc22/wg21/","The C++ Standards Committee","ISO/IEC JTC1/SC22/WG21"],["https://github.com/cplusplus/draft","C++ standards drafts","ISO/IEC JTC1/SC22/WG21"],["http://isocpp.org/","Standard C++ homepage","Standard C++ Foundation"],["https://groups.google.com/a/isocpp.org/forum/#!topic/std-discussion","ISO C++ Standard - Discussion","Standard C++ Foundation"],["https://groups.google.com/a/isocpp.org/forum/#!forum/std-proposals","ISO C++ Standard - Future Proposals","Standard C++ Foundation"],["http://accu.org/","ACCU","ACCU"],["http://www2.research.att.com/~bs/","Bjarne Stroustrup's homepage","Bjarne Stroustrup"],["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"]]},
+				["http://www.open-std.org/jtc1/sc22/wg21/","The C++ Standards Committee","ISO/IEC JTC1/SC22/WG21"],
+				["https://github.com/cplusplus/draft","C++ standards drafts","ISO/IEC JTC1/SC22/WG21"],
+				["http://isocpp.org/","Standard C++ homepage","Standard C++ Foundation"],
+				["https://groups.google.com/a/isocpp.org/forum/#!topic/std-discussion","ISO C++ Standard - Discussion","Standard C++ Foundation"],
+				["https://groups.google.com/a/isocpp.org/forum/#!forum/std-proposals","ISO C++ Standard - Future Proposals","Standard C++ Foundation"],
+				["http://accu.org/","ACCU","ACCU"],
+				["http://www2.research.att.com/~bs/","Bjarne Stroustrup's homepage","Bjarne Stroustrup"],
+				["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"]
+			]},
 			{"name":"概念与纠错","type":"linkdesc-block","content":[
 				["http://tieba.baidu.com/p/1051426693","[原创]《高质量C++/C编程指南》陷阱","幻の上帝"],
 				["http://tieba.baidu.com/p/1411238421","ISO C的一些基本概念","幻の上帝"],
@@ -191,8 +272,8 @@
 				["","编程范式",""]
 			]}
 		]},
-		{"name":"关于硬件要求问题[仅参考]","link":"hardware","side-name":"硬件参考","content":[["","CPU","内存","硬盘空间","显卡"],["最低配置","80368","1MiB","512MiB","-"],["基础配置","Pentium III","256MiB","16GiB","-"],["","市面上的电脑差不多都比这玩意高"],["运行虚拟机","Core 2<sup>+</sup>","2<sup>+</sup>GiB","64GiB","-"],["游戏开发","Pentium III<sup>+</sup>","512<sup>+</sup>MiB","32GiB","-"],["3D开发","Pentium 4<sup>+</sup>","1<sup>+</sup>GiB","32GiB","越新越好"],["玩游戏","i7 extreme","64<sup>+</sup>GiB","1<sup>+</sup>TiB","最好的"],["","总之游戏党回去玩游戏去... 你们不用担心你们的电脑有问题"]]},
-		{"name":"关于操作系统[仅参考]","link":"system","side-name":"操作系统","type":"linkdesc-block","content":[["http://www.ubuntu.com/","Ubuntu","目前新手最流行的'Linux'发行版"],["http://linuxmint.com/","LinuxMint","某用户友好型Linux发行版"],["http://www.freebsd.org/","FreeBSD","应当是目前三大BSD中最流行的一种，想玩OS的家伙可以试试(不过记住一点，BSD不是Linux)"],["http://www.netbsd.org/","NetBSD","同样是三大BSD之一，据说是支持平台最多的BSD(据说代码写的很好，有兴趣的可以读读，日常使用的话驱动可能悲剧……)"],["http://www.debian.org/","GNU/Debian","GNU/X11/Apache/Linux/TeX/Perl/Python/FreeCiv系统"],["https://www.archlinux.org/","ArchLinux","简洁主义... 新手小心..."],["http://www.gentoo.org/","Gentoo Linux","新手别玩这玩意... 到时候也不迟"],["http://www.redhat.com/","Redhat","是1994年开始出现的Linux发行版,面向大型机.是一个有钱人才用的面向服务器的系统"],["http://www.centos.org/","CentOS","免费的Linux服务器中，一半以上使用的是CentOS"],["http://fedoraproject.org/","Fedora","Redhat系中某更新率较高的系统"],["http://www.apple.com.cn/osx/","MacOSX","果粉自便"],["http://www.microsoft.com/zh-cn/","MS-DOS","已死,有事烧香"],["http://www.microsoft.com/zh-cn/","WindowsXP","有点古老的玩意"],["http://www.microsoft.com/zh-cn/","Windows7","不错..."],["http://www.microsoft.com/zh-cn/","Windows8","有点新... 所以有些东西的兼容性不正常..."],["http://www.gnu.org/software/hurd/hurd.html","GNU/Hurd","GNU的某个神奇的系统"],["http://plan9.bell-labs.com/plan9/","Plan 9 from Bell Labs","bell-labs的一个神奇的系统"],["","",""],["","Kernels:","这些玩意是'内核'不是'操作系统'"],["http://www.kernel.org/","Linux","粗口林(Linus Torvalds)制造的玩具"],["http://www.gnu.org/software/hurd/microkernel/mach/gnumach.html","Mach","某个内核,OSX就建立于这玩意之上"],["","",""]]},
+		{"name":"关于硬件要求问题[仅参考]","comment":"这堆东西就让它坑着吧","link":"hardware","side-name":"硬件参考","content":[["","CPU","内存","硬盘空间","显卡"],["最低配置","80368","1MiB","512MiB","-"],["基础配置","Pentium III","256MiB","16GiB","-"],["","市面上的电脑差不多都比这玩意高"],["运行虚拟机","Core 2<sup>+</sup>","2<sup>+</sup>GiB","64GiB","-"],["游戏开发","Pentium III<sup>+</sup>","512<sup>+</sup>MiB","32GiB","-"],["3D开发","Pentium 4<sup>+</sup>","1<sup>+</sup>GiB","32GiB","越新越好"],["玩游戏","i7 extreme","64<sup>+</sup>GiB","1<sup>+</sup>TiB","最好的"],["","总之游戏党回去玩游戏去... 你们不用担心你们的电脑有问题"]]},
+		{"name":"关于操作系统[仅参考]","comment":"这堆东西就让它坑着吧","link":"system","side-name":"操作系统","type":"linkdesc-block","content":[["http://www.ubuntu.com/","Ubuntu","目前新手最流行的'Linux'发行版"],["http://linuxmint.com/","LinuxMint","某用户友好型Linux发行版"],["http://www.freebsd.org/","FreeBSD","应当是目前三大BSD中最流行的一种，想玩OS的家伙可以试试(不过记住一点，BSD不是Linux)"],["http://www.netbsd.org/","NetBSD","同样是三大BSD之一，据说是支持平台最多的BSD(据说代码写的很好，有兴趣的可以读读，日常使用的话驱动可能悲剧……)"],["http://www.debian.org/","GNU/Debian","GNU/X11/Apache/Linux/TeX/Perl/Python/FreeCiv系统"],["https://www.archlinux.org/","ArchLinux","简洁主义... 新手小心..."],["http://www.gentoo.org/","Gentoo Linux","新手别玩这玩意... 到时候也不迟"],["http://www.redhat.com/","Redhat","是1994年开始出现的Linux发行版,面向大型机.是一个有钱人才用的面向服务器的系统"],["http://www.centos.org/","CentOS","免费的Linux服务器中，一半以上使用的是CentOS"],["http://fedoraproject.org/","Fedora","Redhat系中某更新率较高的系统"],["http://www.apple.com.cn/osx/","MacOSX","果粉自便"],["http://www.microsoft.com/zh-cn/","MS-DOS","已死,有事烧香"],["http://www.microsoft.com/zh-cn/","WindowsXP","有点古老的玩意"],["http://www.microsoft.com/zh-cn/","Windows7","不错..."],["http://www.microsoft.com/zh-cn/","Windows8","有点新... 所以有些东西的兼容性不正常..."],["http://www.gnu.org/software/hurd/hurd.html","GNU/Hurd","GNU的某个神奇的系统"],["http://plan9.bell-labs.com/plan9/","Plan 9 from Bell Labs","bell-labs的一个神奇的系统"],["","",""],["","Kernels:","这些玩意是'内核'不是'操作系统'"],["http://www.kernel.org/","Linux","粗口林(Linus Torvalds)制造的玩具"],["http://www.gnu.org/software/hurd/microkernel/mach/gnumach.html","Mach","某个内核,OSX就建立于这玩意之上"],["","",""]]},
 		{"name":"工具简介","link":"tools","content":[
 			[{"type":"linkdesc","content":["http://baike.baidu.com/view/14867.htm","<font style=\"color:#F60;\">集成开发环境</font>","Integrated Development Environment(IDE)"]},
 				{"type":"linkdesc-list","content":[
@@ -229,7 +310,56 @@
 				]}
 			]
 		]},
-		{"name":"人物简介","type":"table-people","link":"people","content":[["幻の上帝/FrankHB","圆滚滚的工口帝球葱[<a href=\"https://bitbucket.org/frankhb/\" target=\"_blank\">frankhb</a>][<a href=\"https://github.com/FrankHB\" target=\"_blank\">FrankHB</a>]"],["RichTextBox/RichSelian/EGG娘","ROX-滚床压缩肉牛[<a href=\"https://github.com/richox\" target=\"_blank\">richox</a>]<sub>妹纸：某度娘HR //FIXME: @NailesHcir</sub>"],["Hope_20121221_","某个小正太[<a href=\"https://github.com/hope1\" target=\"_blank\">hope1</a>]"],["寒云似雾/灵风竹/TetrisNoOSer","某个大水笔葱[<a href=\"https://github.com/hysw\" target=\"_blank\">hysw</a>]"],["关签","灿烂的大菊<sub>花</sub>长"],["飞翔的天地",""],["LH_Mouse_EX/乐天派的小耗子","玩窗户<sub>Win</sub>的耗吱"],["NEMESIS_T2",""],["Padme0Amidala","某著名大水笔"],["御坂美琴みさか/EGE娘","misaka-传说中的炮姐[<a href=\"https://github.com/misakamm\" target=\"_blank\">misakamm</a>]"],["⑨chu","[<a href=\"https://github.com/9chu\" target=\"_blank\">9chu</a>]"],["EAgleLeo",""],["ZD_Tinson",""],["whatofor",""],["life_stolen",""],["星月and圣冰雨","算法大牛"],["HGtz2222",""],["china_gll",""],["傻渡娘","<sub>汉纸：啪啪熊</sub>"],["卩s灬飞飞",""],["jingyingbox",""],["_craftG/良化纲领_/阎魔抽/serviper/九头一存/帕斯科维/H之读姬/Razielize/oxdead/Raptor酱/扯蛋的Aria/Xenoneee/九重束风景/攻城尸_/万能姬/守尸神主/...","撸之羊驼[<a href=\"https://github.com/Akvelog\" target=\"_blank\"fi>Akvelog</a>]"],["User32","被揉坏掉了的冰凉小脸"],["萧の十三郎",""],["风之追梦者/梅汁追求者",""],["陆umj",""],["wysaid","好像在搞3D(gl还是dx)似得"],["凤凰院红旗/赫斯珀洛斯/万能姫/战地3/北斗/五行","水货一枚[<a href=\"https://github.com/HououinRedflag\" target=\"_blank\">HououinRedflag</a>]"],["Coding狂人","好似很久以前被气走了"],["阿宾和白洁","已经彻底坏掉了"],["矮油嫑酱紫唉","法律<sub>好似是婚姻法</sub>人士在这里"],["5230娘/顶之座__赫卡特/灼发の夏娜","hecate/彩夏/ayaka/毛球<sub>日语巨触</sub>"],["汇蓝鸟","英文+图形+... <- 面麻<sub>酱</sub>似乎快无敌了"],["assiss","C语言吧元老<sub>似乎有女儿以后就很少来了……</sub>"],["Lemoneee/Gilliland/SergeiSobolev/...","好久没出现的G算姬[<a href=\"https://github.com/Golevka\" target=\"_blank\">Golevka</a>]"],["彩色の夢∩o∩","数学娘、别字娘、正体字娘"],["怪兽大战魔人","编译器大神"],["Luoji_1995","GJK-逻辑神最近不知道去哪了"],["NaylonSlain","<sub>好久不见... 忘了擅长...</sub>"],["MasterRay","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],["8pm","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],["gccer","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],["CIW_BLUE","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],["nadesico19","C菌-日语巨触[<a href=\"https://github.com/nadesico19\" target=\"_blank\">nadesico19</a>]"],["","ps@hysw. 喂喂喂.... 不能总是只有我写阿..."],["Laconism","简练之格言[<a href=\"https://github.com/laconism\" target=\"_blank\">laconism</a>]"],["patricia_xiao/Carbucketty","<sub>腋潇</sub>"],["",""]]},
+		{"name":"人物简介","type":"table-people","link":"people","content":[
+			["幻の上帝/FrankHB","圆滚滚的工口帝球葱[<a href=\"https://bitbucket.org/frankhb/\" target=\"_blank\">frankhb</a>][<a href=\"https://github.com/FrankHB\" target=\"_blank\">FrankHB</a>]"],
+			["RichTextBox/RichSelian/EGG娘","ROX-滚床压缩肉牛[<a href=\"https://github.com/richox\" target=\"_blank\">richox</a>]<sub>妹纸：某度娘HR //FIXME: @NailesHcir</sub>"],
+			["Hope_20121221_","某个小正太[<a href=\"https://github.com/hope1\" target=\"_blank\">hope1</a>]"],
+			["寒云似雾/灵风竹/TetrisNoOSer","某个大水笔葱[<a href=\"https://github.com/hysw\" target=\"_blank\">hysw</a>]"],
+			["关签","灿烂的大菊<sub>花</sub>长"],
+			["飞翔的天地",""],
+			["LH_Mouse_EX/乐天派的小耗子","玩窗户<sub>Win</sub>的耗吱"],
+			["NEMESIS_T2",""],
+			["Padme0Amidala","某著名大水笔"],
+			["御坂美琴みさか/EGE娘","misaka-传说中的炮姐[<a href=\"https://github.com/misakamm\" target=\"_blank\">misakamm</a>]"],
+			["⑨chu","[<a href=\"https://github.com/9chu\" target=\"_blank\">9chu</a>]"],
+			["EAgleLeo",""],
+			["ZD_Tinson",""],
+			["whatofor",""],
+			["life_stolen",""],
+			["星月and圣冰雨","算法大牛"],
+			["HGtz2222",""],
+			["china_gll",""],
+			["傻渡娘","<sub>汉纸：啪啪熊</sub>"],
+			["卩s灬飞飞",""],
+			["jingyingbox",""],
+			["_craftG/良化纲领_/阎魔抽/serviper/九头一存/帕斯科维/H之读姬/Razielize/oxdead/Raptor酱/扯蛋的Aria/Xenoneee/九重束风景/攻城尸_/万能姬/守尸神主/...","撸之羊驼[<a href=\"https://github.com/Akvelog\" target=\"_blank\"fi>Akvelog</a>]"],
+			["User32","被揉坏掉了的冰凉小脸"],
+			["萧の十三郎",""],
+			["风之追梦者/梅汁追求者",""],
+			["陆umj",""],
+			["wysaid","好像在搞3D(gl还是dx)似得"],
+			["凤凰院红旗/赫斯珀洛斯/万能姫/战地3/北斗/五行","水货一枚[<a href=\"https://github.com/HououinRedflag\" target=\"_blank\">HououinRedflag</a>]"],
+			["Coding狂人","好似很久以前被气走了"],
+			["阿宾和白洁","已经彻底坏掉了"],
+			["矮油嫑酱紫唉","法律<sub>好似是婚姻法</sub>人士在这里"],
+			["5230娘/顶之座__赫卡特/灼发の夏娜","hecate/彩夏/ayaka/毛球<sub>日语巨触</sub>"],
+			["汇蓝鸟","英文+图形+... <- 面麻<sub>酱</sub>似乎快无敌了"],
+			["assiss","C语言吧元老<sub>似乎有女儿以后就很少来了……</sub>"],
+			["Lemoneee/Gilliland/SergeiSobolev/...","好久没出现的G算姬[<a href=\"https://github.com/Golevka\" target=\"_blank\">Golevka</a>]"],
+			["彩色の夢∩o∩","数学娘、别字娘、正体字娘"],
+			["怪兽大战魔人","编译器大神"],
+			["Luoji_1995","GJK-逻辑神最近不知道去哪了"],
+			["NaylonSlain","<sub>好久不见... 忘了擅长...</sub>"],
+			["MasterRay","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],
+			["8pm","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],
+			["gccer","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],
+			["CIW_BLUE","<sub>话说由于某云来的晚，所以不太清楚... 知道的写一下介绍</sub>"],
+			["nadesico19","C菌-日语巨触[<a href=\"https://github.com/nadesico19\" target=\"_blank\">nadesico19</a>]"],
+			["","ps@hysw. 喂喂喂.... 不能总是只有我写阿..."],
+			["Laconism","简练之格言[<a href=\"https://github.com/laconism\" target=\"_blank\">laconism</a>]"],
+			["patricia_xiao/Carbucketty","<sub>腋潇</sub>"],
+			["",""]
+		]},
 		{"name":"常见问题","link":"faqs","content":[
 			{"name":"我现在在读xx[学校/年级...]，能不能学C语言","content":[
 				"能: 如果你愿意<i>浪费</i>时间在程序的苦海之中, 有兴趣坚持走下去, 并且有一定的数学基础",
@@ -266,7 +396,9 @@
 			{"name":"学C++要多久","content":["21天"
 			]}
 		]},
-		{"name":"吧友语录","link":"words","content":[["patricia_xiao:谭书","前不见古人后不见来者念天地之悠悠独怆然而泪下。<br>真是高端洋气上档次。哈、哈、哈。<br>【= =←注意看表情】<br>你们老师挺能跟风的。<br>不过没关系，我们老师也很能跟风，这本也是什么参考书之一。没关系。不看就好了。在下有一柜子的相关书籍，不怕它。不碰它。不搭理它。<br>只是纠结一件事，根据【薪火相传】远离，在下有义务赠书于下一级。那么，是销毁这本书避免它荼毒众生呢，还是传下去呢。唉，好伤脑筋。"]]},
+		{"name":"吧友语录","link":"words","content":[
+			["patricia_xiao:谭书","前不见古人后不见来者念天地之悠悠独怆然而泪下。<br>真是高端洋气上档次。哈、哈、哈。<br>【= =←注意看表情】<br>你们老师挺能跟风的。<br>不过没关系，我们老师也很能跟风，这本也是什么参考书之一。没关系。不看就好了。在下有一柜子的相关书籍，不怕它。不碰它。不搭理它。<br>只是纠结一件事，根据【薪火相传】远离，在下有义务赠书于下一级。那么，是销毁这本书避免它荼毒众生呢，还是传下去呢。唉，好伤脑筋。"]
+		]},
 		
 		{"name":"其他","link":"others","content":[
 			{"name":"联络方式","type":"linkdesc-block","content":[
@@ -287,6 +419,15 @@
 	],
 	
 	".admins":[
-		["吧主",["飞翔的天地","关签","御坂美琴みさか"]],["小吧",["陆umj","幻の上帝","夜雨の离殇","寒云似雾","一群牛跑过","ZD_Tinson","RichSelian","EAgleLeo","LH_Mouse_Ex","NEMESIS_T2","白晓生锄禾","各大水神","wsfxzxb","vture","⑨chu","戈尔_Gore","小小的KEIS","Infinity_X","LarryGoode","介个名字很威武","NinsunClosear","lxy_lixiaoyan","星月and圣冰雨","SunnyCase","四元飒","★不死鸟之翼★","sunchy12345678","我是不是师兄","Padme0Amidala"]],["小编",["一群牛跑过","菲西卡斯"]]
+		["吧主",["飞翔的天地","关签","御坂美琴みさか"]],
+		["小吧",[
+			"陆umj","幻の上帝","夜雨の离殇","寒云似雾","一群牛跑过","ZD_Tinson",
+			"RichSelian","EAgleLeo","LH_Mouse_Ex","NEMESIS_T2","白晓生锄禾",
+			"各大水神","wsfxzxb","vture","⑨chu","戈尔_Gore","小小的KEIS",
+			"Infinity_X","LarryGoode","介个名字很威武","NinsunClosear",
+			"lxy_lixiaoyan","星月and圣冰雨","SunnyCase","四元飒",
+			"★不死鸟之翼★","sunchy12345678","我是不是师兄","Padme0Amidala"
+		]],
+		["小编",["一群牛跑过","菲西卡斯"]]
 	]
 }

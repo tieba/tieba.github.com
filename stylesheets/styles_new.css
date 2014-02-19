@@ -156,21 +156,23 @@ body, #right_container{
 }
 #right_container {
 	padding:0px;
-	background:#C7C7C7;
+	background:#FFFFFF;
 }
 #left_container {
-    width:100px;
-	background:#C7C7C7;
+	width:100px;
+	background:#FFFFFF;
 	border-right: 0px solid #5585c1;
 }
 #left_container .memu_container .menu_item a {
-	background:#C7C7C7;
+	padding:3px;
+	border-radius:3px;
+	background:#F7F7F7;
 }
 #left_container:hover .memu_container .menu_item a {
-	background:#C7C7C7;
 }
 #left_container .memu_container .menu_item a:hover {
-	background:#ECECEC;
+	background:#EFEFEF;
+	border-left:3px solid #CFCFCF;
 }
 h2,h3{
 	color:black;
@@ -180,14 +182,21 @@ h2,h3{
 	margin:3px 3px 10px 3px;
 	padding:5px 0px 5px 5px;
 	box-shadow:2px 2px 6px rgba(0, 0, 0, 0.1);
+	border:1px solid #EFEFEF;
 }
 
-.content_card                                           {background:#C7C7C7;}
-.content_card .content_card                             {background:#D7D7D7;}
-.content_card .content_card .content_card               {background:#E7E7E7;}
-.content_card .content_card .content_card .content_card {background:#F7F7F7;}
+.content_card                                           {background:#FFFFFF;}
+.content_card .content_card                             {background:#FFFFFF;}
+.content_card .content_card .content_card               {background:#FFFFFF;}
+.content_card .content_card .content_card .content_card {background:#FFFFFF;}
 
-/*.content_card:hover                                           {background:#CFCFCF;}*/
+.content_card:hover {
+	border:1px solid #BFDFFF;
+}
+
+/*
+.content_card:hover                                           {background:#CFCFCF;}
 .content_card .content_card:hover                             {background:#DFDFDF;}
 .content_card .content_card .content_card:hover               {background:#EFEFEF;}
 .content_card .content_card .content_card .content_card:hover {background:#FFFFFF;}
+*/

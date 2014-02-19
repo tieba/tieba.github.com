@@ -87,9 +87,9 @@ def menu(info):
 		['<li class="menu_item"><a href="%s">%s</a></li>'%i for i in l],
 		'</ul></div>')
 cardgen={
-	"linkdesc":lambda x:'<a href="%s">%s</a>: %s<br>'%tuple(x["content"]),
-	"linkdesc-list":lambda x:['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],
-	"linkdesc-block":lambda x:standard_wrap(['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]])
+	"linkdesc":lambda x,y:'<a href="%s">%s</a>: %s<br>'%tuple(x["content"]),
+	"linkdesc-list":lambda x,y:['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],
+	"linkdesc-block":lambda x,y:standard_wrap(['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],y)
 }
 def gen_cards(il):
 	l=[]
@@ -102,19 +102,21 @@ def gen_card(unit,toplevel=False):
 			return ('<div class="content_card">',gen_cards(unit),"</div>")
 		elif isinstance(unit,dict):
 			l=[]
+			g=""
 			if "name" in unit:
-				l+=['<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link" style="text-align:center"><%s>%s</%s></a>'%(
+				g='<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link" style="text-align:center"><%s>%s</%s></a>'%(
 					"h2" if toplevel else "h3",
 					unit["name"],
 					"h2" if toplevel else "h3"
-				)]
+				)
 			if "type" in unit and unit["type"] in cardgen:
 				if "hide" in unit and ("-m" in flags or "--mobile" in flags or unit["hide"]=="force"):
-					l.append(("<div hidden>",cardgen[unit["type"]](unit),"</div>"))
+					l.append(g)
+					l.append(("<div hidden>",cardgen[unit["type"]](unit,""),"</div>"))
 				else:
-					l.append(cardgen[unit["type"]](unit))
+					l.append(cardgen[unit["type"]](unit,g))
 			else:
-				l+=[('<div class="content_card" %s>'%("hidden" if ("hide" in unit and ("-m" in flags or "--mobile" in flags or unit["hide"]=="force")) in unit else ""),gen_cards(unit["content"]),"</div>")]
+				l+=[('<div class="content_card" %s>'%("hidden" if ("hide" in unit and ("-m" in flags or "--mobile" in flags or unit["hide"]=="force")) in unit else ""),g,"<div>",gen_cards(unit["content"]),"</div>","</div>")]
 			return tuple(l)
 		else:
 			if unit.startswith("http://"):
@@ -124,19 +126,24 @@ def gen_card(unit,toplevel=False):
 		print("KeyError",file=sys.stderr)
 		return ()
 
-def standard_wrap(content):
+def standard_wrap(content, title=""):
 	return (
 		'<div class="content_card">',
+		title,
+		'<div>',
 			content,
+		"</div>",
 		"</div>")
 		
 def topic_standard_wrap(content,i):
 	return (
+		'<div class="content_card">',
 		'<a name="%s"></a>'%i["link"],
 		'<a href="javascript:;" onclick="toggle_table(this);" class="topic_title_link" style="text-align:center"><h2>%s</h2></a>'%i["name"],
-		('<div class="content_card">',
+		'<div>',
 			content,
-		"</div>")
+		'</div>',
+		"</div>"
 	)
 def content(info):
 	l=[]

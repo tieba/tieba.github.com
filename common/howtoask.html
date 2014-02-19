@@ -5,13 +5,28 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="shortcut icon" href="http://static.tieba.baidu.com/tb/favicon.ico">
+		<!--
 		<link rel="stylesheet" href="../stylesheets/styles.css">
 		<link rel="stylesheet" href="../stylesheets/pygment_trac.css">
-		<link rel="stylesheet" href="../stylesheets/lang_c.css">
 		<script src="../javascripts/jquery.min.js"></script>
 		<script src="../javascripts/respond.js"></script>
 		<script src="../javascripts/table.js"></script>
+		-->
+		<link rel="stylesheet" href="../stylesheets/lang_c.css">
+		<link rel="stylesheet" href="../stylesheets/styles_new.css">
 		<style>
+			body {
+				font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			}
+			#container .sect1, #container .sect2{
+				border:1px solid black;
+				margin:10px;
+				padding:10px;
+				margin:3px 3px 10px 3px;
+				padding:5px 0px 5px 5px;
+				box-shadow:2px 2px 6px rgba(0, 0, 0, 0.1);
+				border:1px solid #EFEFEF;
+			}
 			.wrapper{
 				overflow:auto;
 				position:absolute;
@@ -20,18 +35,116 @@
 				left:0px;
 				right:0px;
 			}
+			
+			#container .sect1:hover, #container .sect2:hover {
+				border:1px solid #BFDFFF;
+			}
+			/**
+			 * ac : anchor
+			 */
+			#topics_wrapper {
+				position: absolute;
+				top:0px;
+				left:0px;
+				width:300px;
+				bottom:0px;
+				overflow-y:auto;
+			}
+			#topics {
+				padding:5px;
+			}
+			.ac1, .ac2 {
+				border:1px solid #DFDFDF;
+				border-radius:3px;
+				margin:2px;
+				padding:3px;
+			}
+			.ac1 {background:#FCFCFC;}
+			.ac2 {background:#EFEFEF;}
+			.ac2 {margin-left:10px;}
+			
+			.ac1:hover {background:#F7F7F7;}
+			.ac2:hover {background:#ECECEC;}
+			
+			#container_wrapper{
+				position: absolute;
+				top:0px;
+				left:300px;
+				right:0px;
+				bottom:0px;
+				overflow-y:auto;
+			}
+			
+			#header {
+				left:300px;
+			}
 		</style>
 	</head>
 	<body>
-		<div id="header">
-			<h1 style="text-align:center;">提问的智慧<sub>(How To AskQuestions The Smart Way)</sub></h1>
-		</div>
 		
-		<div class="wrapper"><section><div>
-		<img src="../images/howtoask.png">
+		
+	<div id="topics_wrapper"><div id="topics" class="toc">
+		<div class="ac1"><a href="#about">关于</a></div>
+		<div class="ac1"><a href="#translations">译文</a></div>
+		<div class="ac1"><a href="#disclaimer">弃权申明</a></div>
+		<div class="ac1"><a href="#intro">引言</a></div>
+		<div class="ac1"><a href="#before">提问前</a></div>
+		<div class="ac1">
+			<a href="#asking">提问时</a>
 			
-		<hr>
+			<div class="ac2"><a href="#forum">仔细挑选论坛</a></div>
+			<div class="ac2"><a href="#usefora">面向新手的论坛和互联网中继聊天（IRC）通常响应最快</a></div>
+			<div class="ac2"><a href="#uselists">第二步，使用项目的邮件列表</a></div>
+			<div class="ac2"><a href="#bespecific">使用有意义且明确的主题</a></div>
+			<div class="ac2"><a href="#easyreply">使问题容易回复</a></div>
+			<div class="ac2"><a href="#writewell">用清晰、语法、拼写正确的语句书写</a></div>
+			<div class="ac2"><a href="#formats">使用易于读取且标准的文件格式发送问题</a></div>
+			<div class="ac2"><a href="#beprecise">描述问题应准确且有内容</a></div>
+			<div class="ac2"><a href="#volume">量不在多，精炼则灵</a></div>
+			<div class="ac2"><a href="#id264997">别急于宣称找到臭虫</a></div>
+			<div class="ac2"><a href="#id265155">低声下气代替不了做自己的家庭作业</a></div>
+			<div class="ac2"><a href="#symptoms">描述问题症状而不是猜测</a></div>
+			<div class="ac2"><a href="#chronology">按时间先后罗列问题症状</a></div>
+			<div class="ac2"><a href="#goal">描述目标而不是过程</a></div>
+			<div class="ac2"><a href="#noprivate">别要求私下回复电邮</a></div>
+			<div class="ac2"><a href="#explicit">提问应明确</a></div>
+			<div class="ac2"><a href="#code">关于代码的问题</a></div>
+			<div class="ac2"><a href="#homework">别张贴家庭作业式问题</a></div>
+			<div class="ac2"><a href="#prune">删除无意义的要求</a></div>
+			<div class="ac2"><a href="#urgent">不要把问题标记为“<span class="quote">紧急</span>”， 即使对你而言的确如此</a></div>
+			<div class="ac2"><a href="#courtesy">礼貌总是有益的</a></div>
+			<div class="ac2"><a href="#followup">问题解决后追加一条简要说明</a></div>
+		</div>
+		<div class="ac1">
+			<a href="#answers">如何解读回答</a>
+			<div class="ac2"><a href="#rtfm">“读读该死的手册”（RTFM）和“搜搜该死的网络”（STFW）：如何明白你已完全搞砸</a></div>
+			<div class="ac2"><a href="#lesser">如果还不明白……</a></div>
+			<div class="ac2"><a href="#keepcool">对待无礼</a></div>
+		</div>
+		<div class="ac1"><a href="#not_losing">别象失败者那样反应</a></div>
+		<div class="ac1"><a href="#classic">提问禁忌</a></div>
+		<div class="ac1"><a href="#examples">好问题与坏问题</a></div>
+		<div class="ac1"><a href="#id266352">如果得不到回答</a></div>
+		<div class="ac1"><a href="#id266392">如何更好地回答</a></div>
+		<div class="ac1"><a href="#id266466">相关资源</a></div>
+		<div class="ac1"><a href="#id266494">鸣谢</a></div>
+	</div></div>
+
+
+
+
+<div id="container_wrapper"><div id="container">
+
+		<!--div id="header">
+			<h1 style="text-align:center;">提问的智慧<sub>(How To AskQuestions The Smart Way)</sub></h1>
+		</div-->
+
+		<div class="wrapper_"><div>
+
+<a name="about"></a>
+<div class="sect1" lang="en" xml:lang="en">
 		
+	<div class="sect2" lang="en" xml:lang="en">
 		<h3>原文</span>：<a href="http://www.catb.org/%7Eesr/faqs/smart-questions.html">How To Ask Questions The Smart Way</a></h3>
 		<h3>译文链接</span>：<a href="http://www.wapm.cn/smart-questions/smart-questions-zh.html">提问的艺术</a></h3>
 
@@ -43,9 +156,9 @@
 		<h3>翻译：王刚 &lt;yafrank at 126 dot com&gt;</h3>
 		<h3>版权&#169;2001, 2006 Eric S. Raymond, Rick Moen</h3>
 		
-		<hr>
+	</div>
 		
-			
+	<div class="sect2" lang="en" xml:lang="en">
 		<h3>修订历史</h3>
 		<table width="100%" summary="Revision history" class="section_content">
 			<tr>
@@ -91,12 +204,18 @@
 				<td align="left">esr</td>
 			</tr>
 		</table>
+	</div>
+	时间：2010年9月28日
+</div>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; <br>
-       时间：2010年9月28日
-      <div class="toc"><p><b>内容</b></p><dl><dt><span class="sect1"><a href="#translations">译文</a></span></dt><dt><span class="sect1"><a href="#disclaimer">弃权申明</a></span></dt><dt><span class="sect1"><a href="#intro">引言</a></span></dt><dt><span class="sect1"><a href="#before">提问前</a></span></dt><dt><span class="sect1"><a href="#asking">提问时</a></span></dt><dd><dl><dt><span class="sect2"><a href="#forum">仔细挑选论坛</a></span></dt><dt><span class="sect2"><a href="#usefora">面向新手的论坛和互联网中继聊天（IRC）通常响应最快</a></span></dt><dt><span class="sect2"><a href="#uselists">第二步，使用项目的邮件列表</a></span></dt><dt><span class="sect2"><a href="#bespecific">使用有意义且明确的主题</a></span></dt><dt><span class="sect2"><a href="#easyreply">使问题容易回复</a></span></dt><dt><span class="sect2"><a href="#writewell">用清晰、语法、拼写正确的语句书写</a></span></dt><dt><span class="sect2"><a href="#formats">使用易于读取且标准的文件格式发送问题</a></span></dt><dt><span class="sect2"><a href="#beprecise">描述问题应准确且有内容</a></span></dt><dt><span class="sect2"><a href="#volume">量不在多，精炼则灵</a></span></dt><dt><span class="sect2"><a href="#id264997">别急于宣称找到臭虫</a></span></dt><dt><span class="sect2"><a href="#id265155">低声下气代替不了做自己的家庭作业</a></span></dt><dt><span class="sect2"><a href="#symptoms">描述问题症状而不是猜测</a></span></dt><dt><span class="sect2"><a href="#chronology">按时间先后罗列问题症状</a></span></dt><dt><span class="sect2"><a href="#goal">描述目标而不是过程</a></span></dt><dt><span class="sect2"><a href="#noprivate">别要求私下回复电邮</a></span></dt><dt><span class="sect2"><a href="#explicit">提问应明确</a></span></dt><dt><span class="sect2"><a 
-href="#code">关于代码的问题</a></span></dt><dt><span class="sect2"><a href="#homework">别张贴家庭作业式问题</a></span></dt><dt><span class="sect2"><a href="#prune">删除无意义的要求</a></span></dt><dt><span class="sect2"><a href="#urgent">不要把问题标记为“<span class="quote">紧急</span>”， 即使对你而言的确如此</a></span></dt><dt><span class="sect2"><a href="#courtesy">礼貌总是有益的</a></span></dt><dt><span class="sect2"><a href="#followup">问题解决后追加一条简要说明</a></span></dt></dl></dd><dt><span class="sect1"><a href="#answers">如何解读回答</a></span></dt><dd><dl><dt><span class="sect2"><a href="#rtfm">“读读该死的手册”（RTFM）和“搜搜该死的网络”（STFW）：如何明白你已完全搞砸</a></span></dt><dt><span class="sect2"><a href="#lesser">如果还不明白……</a></span></dt><dt><span class="sect2"><a href="#keepcool">对待无礼</a></span></dt></dl></dd><dt><span class="sect1"><a href="#not_losing">别象失败者那样反应</a></span></dt><dt><span class="sect1"><a href="#classic">提问禁忌</a></span></dt><dt><span class="sect1"><a href="#examples">好问题与坏问题</a></span></dt><dt><span class="sect1"><a href="#id266352">如果得不到回答</a></span></dt><dt><span class="sect1"><a href="#id266392">如何更好地回答</a></span></dt><dt><span class="sect1"><a href="#id266466">相关资源</a></span></dt><dt><span class="sect1"><a href="#id266494">鸣谢</a></span></dt></dl></div><div class="sect1" lang="en" xml:lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="translations"></a>译文</h2></div></div></div><p>译文：
+
+	<div class="sect1" lang="en" xml:lang="en">
+		<img src="../images/howtoask.png">
+	</div>
+
+
+<div class="sect1" lang="en" xml:lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="translations"></a>译文</h2></div></div></div><p>译文：
 
 <a href="http://bulsara.host.sk/index.php?p=2005" target="_top">印尼语</a>、
 <a href="http://www.istf.com.br/perguntas/" target="_top">巴西葡萄牙语</a>、
@@ -278,8 +397,9 @@ Unix 和互联网工作的基本原理</a>。
 </p><p>当你发布软件或补丁时，试着按 <a href="http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html" target="_top">
 软件发布实践</a> 操作。</p></div><div class="sect1" lang="en" xml:lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a id="id266494"></a>鸣谢</h2></div></div></div><p>
           伊夫林.米切尔（Evelyn Mitchell）贡献了一些愚蠢问题例子并启发了编写“<span class="quote">如何更好地回答问题</span>”这一节，米哈伊尔.罗门迪克（Mikhail Ramendik）贡献了一些特别有价值的建议和改进。
-        </p></div>
-		</div></section></div>
+        </p></div></div>
+		</div>
+		</div></div>
 	</body>
 </html>
 

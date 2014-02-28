@@ -193,7 +193,15 @@ h2,h3{
 .content_card:hover {
 	border:1px solid #BFDFFF;
 }
-
+.lkdescblk td{
+	border-bottom: 1px solid #EFEFEF;
+}
+.lkdescblk:hover td{
+	border-bottom: 1px solid #DFEFDF;
+}
+.lkdescblk tr:hover td{
+	border-bottom: 1px solid #8FDFAF;
+}
 /*
 .content_card:hover                                           {background:#CFCFCF;}
 .content_card .content_card:hover                             {background:#DFDFDF;}

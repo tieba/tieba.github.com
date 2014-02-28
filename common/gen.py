@@ -39,6 +39,7 @@ def people(x):
 		standard_wrap(('<table width="100%"><tbody>',
 		l,
 		"</tbody></table>")))
+	
 initfuncs={
 	"table-admins":lambda x:topic_standard_wrap(admins(x["content"]),x),
 	"table-people":lambda x:topic_standard_wrap(people(x["content"]),x),
@@ -86,10 +87,35 @@ def menu(info):
 	return ('<div id="left_container"><ul class="memu_container">',
 		['<li class="menu_item"><a href="%s">%s</a></li>'%i for i in l],
 		'</ul></div>')
+def lkdesclst(x):
+	l=[]
+	for i in x:
+		l.append(
+			('<tr>',
+				'<td><a href="%s">%s</a><br></td>'%(i[0],i[1]),
+				'<td align="right" style="text-align:right">',i[2],'</td>',
+			"</tr>"))
+	return ('<table width="100%" class="lkdescblk"><tbody>',
+		l,
+		"</tbody></table>")
+
+def lkdescblk(x):
+	l=[]
+	for i in x:
+		l.append(
+			('<tr>',
+				'<td><a href="%s">%s</a><br></td>'%(i[0],i[1]),
+				'<td align="right" style="text-align:right">',i[2],'</td>',
+			"</tr>"))
+	return ('<table width="100%" class="lkdescblk"><tbody>',
+		l,
+		"</tbody></table>")
+	
+#	"linkdesc-block":lambda x:topic_standard_wrap((x["content"]),x),
 cardgen={
 	"linkdesc":lambda x,y:'<a href="%s">%s</a>: %s<br>'%tuple(x["content"]),
-	"linkdesc-list":lambda x,y:['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],
-	"linkdesc-block":lambda x,y:standard_wrap(['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],y)
+	"linkdesc-list":lambda x,y:standard_wrap(lkdesclst(x["content"]),y),
+	"linkdesc-block":lambda x,y:standard_wrap(lkdescblk(x["content"]),y)#['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],y)
 }
 def gen_cards(il):
 	l=[]

@@ -306,7 +306,8 @@
 					["http://netbeans.org/","Netbeans","..."],
 					["http://www.geany.org/","Geany","..."],
 					["http://qt.digia.com/","Qt Creator"," 不错的C++IDE。速度快，功能全，在linux下可以考虑，只不过对TMP/STL/C++11的支持实在够呛"],
-					["http://www.prgramarts.com/cfree_ch/download.htm","C-Free","据说还可以的某个IDE (专业版收费)"]
+					["http://www.prgramarts.com/cfree_ch/download.htm","C-Free","据说还可以的某个IDE (专业版收费)"],
+					["http://www.lighttable.com/","Light Table","华丽丽的某玩意"]
 				]}
 			],
 			[{"type":"linkdesc","content":["http://baike.baidu.com/view/487018.htm","<font style=\"color:#F60;\">编译器</font>","Compiler"]},

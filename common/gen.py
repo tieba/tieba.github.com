@@ -105,7 +105,7 @@ def lkdescblk(x):
 		l.append(
 			('<tr>',
 				'<td><a href="%s">%s</a><br></td>'%(i[0],i[1]),
-				'<td align="right" style="text-align:right">',tbid(i[2]),'</td>',
+				'<td align="right" style="text-align:right">',i[2],'</td>', #TODO add tbid part
 			"</tr>"))
 	return ('<table width="100%" class="lkdescblk"><tbody>',
 		l,

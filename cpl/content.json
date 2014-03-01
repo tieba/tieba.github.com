@@ -211,7 +211,7 @@
 			[{"type":"linkdesc","content":["http://baike.baidu.com/view/14867.htm","<font style=\"color:#F60;\">集成开发环境</font>","Integrated Development Environment(IDE)"]},
 				{"type":"linkdesc-list","content":[
 					["http://www.visualstudio.com/downloads/download-visual-studio-vs","MS Visual Studio(记得找Visual C++ Express，免费的)","微软出品的C/C++/whatever IDE (Warning:2<sup>+</sup>GB)"],
-					["http://www.codeblocks.org/","Code::Blocks","开放源码的全功能的跨平台C/C++集成开发环境"],
+					["http://www.codeblocks.org/","Code::Blocks(记得下载带MinGW的版本)","开放源码的全功能的跨平台C/C++集成开发环境"],
 					["http://www.codelite.org/","CodeLite","开源、跨平台的C/C++集成开发环境"],
 					["http://sourceforge.net/projects/orwelldevcpp/","Orwell Dev-C++","可移植的C/C++IDE"],
 					["http://www.eclipse.org/downloads/","Eclipse","多语言的集成开发环境(设置较为复杂)"],

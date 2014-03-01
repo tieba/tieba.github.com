@@ -1,4 +1,7 @@
 {
+	"":[
+			"../common/content.js",
+			"content.js"],
 	"head":{
 		"title":"索引",
 		"charset":"utf-8",
@@ -10,9 +13,7 @@
 		"javascript":[
 			"../javascripts/jquery.min.js",
 			"../javascripts/respond.js",
-			"../javascripts/table.js",
-			"../common/content.js",
-			"content.js"
+			"../javascripts/table.js"
 		],
 		"stylesheet-mobile":[],
 		"javascript-mobile":[]
@@ -96,7 +97,8 @@
 				"[<font style=\"color:green\">删</font><font style=\"color:orange\">封</font>]请问这段代码什么意思？<sub>(自己去想，否则请说明你自己有什么搞不清楚)</sub>",
 				"[<font style=\"color:green\">删</font>]有没有QQ群<sub>(不欢迎QQ群之类的玩意，请自己找...)</sub>",
 				"[<font style=\"color:green\">删</font><font style=\"color:orange\">封</font>]小女子请问xxxxxx？"
-			]}
+			]},
+			{"name":"伸手帖定义", "type":"import-html","content":"common/greedy.sec.html"}
 		]},
 		{"name":"提问的智慧","type":"link-only","link":"../common/howtoask.html"},
 		{"name":"资料和教程","link":"tutorials","content":[

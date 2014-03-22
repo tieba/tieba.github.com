@@ -1,4 +1,7 @@
 {
+	"":[
+			"../common/content.js",
+			"content.js"],
 	"head":{
 		"title":"索引",
 		"charset":"utf-8",
@@ -10,9 +13,7 @@
 		"javascript":[
 			"../javascripts/jquery.min.js",
 			"../javascripts/respond.js",
-			"../javascripts/table.js",
-			"../common/content.js",
-			"content.js"
+			"../javascripts/table.js"
 		],
 		"stylesheet-mobile":[],
 		"javascript-mobile":[]
@@ -96,7 +97,8 @@
 				"[<font style=\"color:green\">删</font><font style=\"color:orange\">封</font>]请问这段代码什么意思？<sub>(自己去想，否则请说明你自己有什么搞不清楚)</sub>",
 				"[<font style=\"color:green\">删</font>]有没有QQ群<sub>(不欢迎QQ群之类的玩意，请自己找...)</sub>",
 				"[<font style=\"color:green\">删</font><font style=\"color:orange\">封</font>]小女子请问xxxxxx？"
-			]}
+			]},
+			{"name":"伸手帖定义", "type":"import-html","content":"common/greedy.sec.html"}
 		]},
 		{"name":"提问的智慧","type":"link-only","link":"../common/howtoask.html"},
 		{"name":"资料和教程","link":"tutorials","content":[
@@ -210,8 +212,8 @@
 		{"name":"工具简介","link":"tools","content":[
 			[{"type":"linkdesc","content":["http://baike.baidu.com/view/14867.htm","<font style=\"color:#F60;\">集成开发环境</font>","Integrated Development Environment(IDE)"]},
 				{"type":"linkdesc-list","content":[
-					["http://www.microsoft.com/visualstudio/eng/products/visual-studio-express-products","MS Visual Studio Express","微软出品的C/C++/whatever IDE (Warning:2<sup>+</sup>GB)"],
-					["http://www.codeblocks.org/","Code::Blocks","开放源码的全功能的跨平台C/C++集成开发环境"],
+					["http://www.visualstudio.com/downloads/download-visual-studio-vs","MS Visual Studio(记得找Visual C++ Express，免费的)","微软出品的C/C++/whatever IDE (Warning:2<sup>+</sup>GB)"],
+					["http://www.codeblocks.org/","Code::Blocks(记得下载带MinGW的版本)","开放源码的全功能的跨平台C/C++集成开发环境"],
 					["http://www.codelite.org/","CodeLite","开源、跨平台的C/C++集成开发环境"],
 					["http://sourceforge.net/projects/orwelldevcpp/","Orwell Dev-C++","可移植的C/C++IDE"],
 					["http://www.eclipse.org/downloads/","Eclipse","多语言的集成开发环境(设置较为复杂)"],

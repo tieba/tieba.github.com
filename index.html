@@ -3,10 +3,62 @@
 	<!--TODO no jquery | no javascript version -->
 	<head>
 		<title>索引</title>
-		<meta http-equiv="refresh" content="0; url=cpl/index.html">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style>
+			body {
+				background: #1F1F1F;
+			}
+			#outer {
+				overflow: auto;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				bottom: 0px;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+			#container {
+			
+				box-shadow: 0 0 30px black;
+				margin-left: auto;
+				margin-right: auto;
+				height:100%;
+				top:0px;
+				bottom:0px;
+				max-width: 800px;
+				background: #0F0F0F;
+				overflow-y:hidden;
+			}
+			
+			.link_page {
+				box-shadow: 0 0 3px white;
+				background: #3F3F3F;
+				text-align: center;
+				margin: 20px;
+				padding: 10px;
+				border-radius: 5px;
+			}
+			.link_page:hover {
+				background: #5F5F5F;
+				box-shadow: 0 0 30px white;
+				box-shadow: 0 0 30px #DFFFEF;
+			}
+			a {
+				font-family: 'comic sans', 'Courier New', 'Consolas', 'monospace', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				font-size: 1.5em;
+				font-weight: bold;
+				color: white;
+				text-decoration: none;
+			}
+		</style>
 	</head>
 	<body>
-		<a href="/cpl/index.html">如果没有自动跳转，请点这里</a>
+		<div id="outer"><div id="container">
+			<a href="./cpl/index.html"><div class="link_page">索引 - C语言吧</div></a>
+			<a href="./cpp/index.html"><div class="link_page">索引 - C++吧</div></a>
+			<a href="./common/howtoask.html"><div class="link_page">提问的智慧</div></a>
+			<a href="#"><div class="link_page">test</div></a>
+		</div></div>
 	</body>
 </html>

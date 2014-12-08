@@ -129,7 +129,12 @@
 				["https://groups.google.com/a/isocpp.org/forum/#!forum/std-proposals","ISO C++ Standard - Future Proposals","Standard C++ Foundation"],
 				["http://accu.org/","ACCU","ACCU"],
 				["http://www2.research.att.com/~bs/","Bjarne Stroustrup's homepage","Bjarne Stroustrup"],
-				["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"]
+				["http://herbsutter.com/gotw/","GotW(Guru of the Week) for C++11","Herb Sutter"],
+				["http://www.open-std.org/jtc1/sc22/wg14/","C","ISO/IEC JTC1/SC22/WG14"]
+			]},
+			{"name":"文档合集","type":"linkdesc-block","content":[
+				["http://www.open-std.org/jtc1/sc22/wg21/docs/papers","C++ Standards Committee Papers","ISO/IEC JTC1/SC22/WG21"],
+				["https://github.com/FrankHB/pl-docs","Programing Language Documentations","FrankHB"]
 			]},
 			{"name":"概念与纠错","type":"linkdesc-block","content":[
 				["http://tieba.baidu.com/p/1051426693","[原创]《高质量C++/C编程指南》陷阱","幻の上帝"],
@@ -147,7 +152,9 @@
 				["http://tieba.baidu.com/p/1025389624","c++0x右值引用,你怎么吃了一半就走了?","陆umj"],
 				["http://tieba.baidu.com/p/1026523474","c++0x右值引用,你怎么吃了一半就走了?(续)","陆umj"],
 				["http://tieba.baidu.com/p/2272468675","[原创][科普]C&C++广义类型系统缺陷","幻の上帝"],
-				["http://tieba.baidu.com/p/2403773958","[原创]转移vs复制","幻の上帝"]
+				["http://tieba.baidu.com/p/2403773958","[原创]转移vs复制","幻の上帝"],
+				["http://tieba.baidu.com/p/3190068223","[原创]正确地黑C","幻の上帝"],
+				["http://tieba.baidu.com/p/3202116449","C++有什么所谓的Design Error？","森哥先森"]
 			]},
 			{"name":"原创翻译","type":"linkdesc-block","content":[
 				["http://tieba.baidu.com/p/1639526628","【译制】入门向：VC++ 中的 Lambda 表达式","candy76041820"],
@@ -186,6 +193,10 @@
 				["http://tieba.baidu.com/p/1885477077","【音乐编程】基于DirectSound的音乐播放与FFT频谱可视化(part 3)","汇蓝鸟"],
 				["http://tieba.baidu.com/p/1906977428","【音乐编程】播放器频谱可视化与语音的智能识别思想(part 3)","汇蓝鸟"],
 				["http://tieba.baidu.com/f/good?kw=c%D3%EF%D1%D4","更多请阅读'本吧精品区'",""]
+			]},
+			{"name":"吧友作品","type":"linkdesc-block","link":"projects-cxx","content":[
+				["http://tieba.baidu.com/p/3069607390","YSLib","幻の上帝"],
+				["https://github.com/FrankHB/YEGE","YEGE","FrankHB"]
 			]},
 			{"name":"吧友作品(C语言吧)","type":"linkdesc-block","link":"projects","content":[
 				["http://code.google.com/p/comprox/","Comprox - 肉牛的压缩机","RichSelian"],

@@ -113,7 +113,7 @@ def lkdescblk(x):
 	
 #	"linkdesc-block":lambda x:topic_standard_wrap((x["content"]),x),
 cardgen={
-	"import-html":lambda x,y:standard_wrap(open(x["content"]).read(),y),
+	"import-html":lambda x,y:standard_wrap(open(x["content"], 'r', encoding = 'utf-8').read(),y),
 	"linkdesc":lambda x,y:'<a href="%s">%s</a>: %s<br>'%tuple(x["content"]),
 	"linkdesc-list":lambda x,y:standard_wrap(lkdesclst(x["content"]),y),
 	"linkdesc-block":lambda x,y:standard_wrap(lkdescblk(x["content"]),y)#['<a href="%s">%s</a>: %s<br>'%tuple(i) for i in x["content"]],y)

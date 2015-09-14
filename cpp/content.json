@@ -129,7 +129,7 @@
 			{"name":"<a name=\"indices\">索引链接</a>","content":[
 				"A.1 <a href=\"http://tieba.baidu.com/p/2678890184\">操作记录索引贴</a>",
 				"A.2 <a href=\"http://tieba.baidu.com/p/2678895259\">违规内容索引贴</a>",
-				"A.2.1 违规内容子索引贴 - <a href=\"http://tieba.baidu.com/p/2092647737\">百度百科低质量词条通告</a>"
+				"A.2.1 违规内容子索引贴 - <a href=\"http://tieba.baidu.com/p/2092647737\">百度百科低质量相关词条内容通告</a>"
 			]},
 			{"name":"<a name=\"typical-rules-violation\">典型违规事项</a>","content":[
 				"B.1 广告内容不区分私人广告和商业广告（包括QQ群、论坛的推广等）。对和本吧主题相关的贴吧贴子和个人项目的宣传，可根据具体内容不视为广告。",
@@ -190,7 +190,6 @@
 				["http://tieba.baidu.com/p/1969958655","关于main函数的原型和返回值(void main vs int main)","幻の上帝"],
 				["http://tieba.baidu.com/p/2021793275","[原创]C/C++语言学习导论(1)","幻の上帝"],["http://tieba.baidu.com/p/2023656913","[原创]C/C++语言学习导论(2)","幻の上帝"],
 				["http://tieba.baidu.com/p/2091426198","[原创]C11&C++11的赋值相关表达式求值","幻の上帝"],
-				["http://tieba.baidu.com/p/2092647737","百度百科低质量相关词条内容通告","幻の上帝"],
 				["http://tieba.baidu.com/p/2201116330","关于异常处理的一些话题","幻の上帝"]
 			]},
 			{"name":"语言设计和演化","type":"linkdesc-block","content":[

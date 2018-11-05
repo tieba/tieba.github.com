@@ -25,7 +25,7 @@
 				"* 吧务对吧规保留著作权。",
 				"* 使用<a href=\"http://zh.wikipedia.org/wiki/Git\" target=\"_blank\">Git</a>获取本页的修订<a href=\"https://github.com/tieba/tieba.github.com/tree/master/cpp\" target=\"_blank\">历史记录</a>。",
 				"* 建议使用<a href=\"https://github.com/tieba/tieba.github.com/issues?state=open\" target=\"_blank\">Issue</a>和<a href=\"https://github.com/tieba/tieba.github.com/pulls\" target=\"_blank\">Pull Request</a>反馈对本页的意见和建议。",
-				"* 最后修订：2016年07月02日。"
+				"* 最后修订：2018年11月06日。"
 			]},
 			{"name":"总则","content":[
 				"1.1 为保障吧友的正当权益，明确吧务的管理职责，促进良好的讨论气氛，根据<a href=\"http://tieba.baidu.com/tb/eula.html\" target=\"_blank\">百度《贴吧协议》</a>和<a href=\"http://tieba.baidu.com/tb/system.html#cnt08\" target=\"_blank\">《百度贴吧吧主制度》</a>，制定本吧规。",
@@ -39,13 +39,13 @@
 			]},
 			{"name":"吧务管理","content":[
 				"2.1 <i>吧务</i>（本吧管理组）按《百度贴吧吧主制度》和本吧规行使管理本吧的职权。欢迎吧友监督及协助吧务管理。",
-				"2.2 吧务在有合理的理由（包括但不限于对违规行为的处理）和符合本吧规规定的前提下有权按照个人的判断管理本吧；若有分歧，以本吧规明文规定为准，协商解决。",
+				"2.2 吧务在有合理的理由（包括但不限于对<a href=\"#2.4\">违规行为</a>的处理）和符合本吧规规定的前提下有权按照个人的判断管理本吧；若有分歧，以本吧规明文规定为准，协商解决。",
 				"<a name=\"2.3\">2.3</a> 吧务通过贴吧后台进行贴子和人员进行管理操作。",
 				"2.3.1 操作包括警告、删贴（删除主题和/或回复）、封禁、添加黑名单。",
 				"2.3.2 被吧务操作处理的人员（<a href=\"http://baike.baidu.com/view/2410019.htm\" target=\"_blank\"><i>相对人</i></a>）包括<a href=\"http://baike.baidu.com/view/22657.htm\" target=\"_blank\"><i>当事人</i></a>的贴吧 <i>ID</i> 和有理由认为有关的一个或多个<i>傀儡账户</i>（“<i>马甲</i>”）或IP等。",
 				"2.3.3 吧务操作无需提前通知相对人。",
 				"2.3.4 吧务认为必要时，可自行公布操作记录。",
-				"2.4 <i>违规行为</i>包括违反中华人民共和国法律法规、百度贴吧协议和本吧规其它条款明令禁止的事项。",
+				"<a name=\"2.4\">2.4</a> <i>违规行为</i>包括违反中华人民共和国法律法规、百度贴吧协议和本吧规其它条款明令禁止的事项。",
 				"2.4.1 如果可能，吧务应删除构成违规行为的内容，或指出违规后予以保留。",
 				"2.4.2 对初次违规者，除有本条认定的情形外，应予警告或直接处理时给出解释。",
 				"2.4.3 情节严重、影响恶劣且不知悔改者，不适用警告。",

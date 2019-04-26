@@ -25,7 +25,7 @@
 				"* 吧务对吧规保留著作权。",
 				"* 使用<a href=\"http://zh.wikipedia.org/wiki/Git\" target=\"_blank\">Git</a>获取本页的修订<a href=\"https://github.com/tieba/tieba.github.com/tree/master/cpp\" target=\"_blank\">历史记录</a>。",
 				"* 建议使用<a href=\"https://github.com/tieba/tieba.github.com/issues?state=open\" target=\"_blank\">Issue</a>和<a href=\"https://github.com/tieba/tieba.github.com/pulls\" target=\"_blank\">Pull Request</a>反馈对本页的意见和建议。",
-				"* 最后修订：2018年11月06日。"
+				"* 最后修订：2019-04-26 。"
 			]},
 			{"name":"总则","content":[
 				"1.1 为保障吧友的正当权益，明确吧务的管理职责，促进良好的讨论气氛，根据<a href=\"http://tieba.baidu.com/tb/eula.html\" target=\"_blank\">百度《贴吧协议》</a>和<a href=\"http://tieba.baidu.com/tb/system.html#cnt08\" target=\"_blank\">《百度贴吧吧主制度》</a>，制定本吧规。",
@@ -104,7 +104,11 @@
 				"3.10.1 本吧允许合法合规地有偿发布资源，尊重发布者的索取报酬的权利。有偿资源发布者应同意承担由此造成的法律允许范围内的一切责任和风险。",
 				"3.10.2 资源贴内发布者对本吧吧友差别对待的，可以警告或封禁，但不得因此删除内容。",
 				"3.10.3 仅有指向特定非公共资源发布途径（如网盘等）域名的链接而不给出进一步解释的内容，视为<a href=\"#3.12.1\">被限制的广告</a>而非资源贴。",
-				"<a name=\"3.11\">3.11</a> 本吧禁止讨论中的人身批评(Argumentum ad Hominem)/“对人不对事” ，可以警告或封禁发言者，但不得因此删除内容以避免减少警示作用。",
+				"<a name=\"3.11\">3.11</a> 本吧禁止讨论中的<a href=\"https://zh.wikipedia.org/zh-cn/%E8%A8%B4%E8%AB%B8%E4%BA%BA%E8%BA%AB\">人身批评</a>(<a href=\"https://en.wikipedia.org/wiki/Ad_hominem\">Argumentum ad Hominem</a>)/“对人不对事”。",
+				"3.11.1 根据情节严重情况和主观故意的程度，吧务可适当警告或封禁发言者。",
+				"3.11.2 除被言论针对的当事人的合法权利受到内容侵害的情况外，不得因此删除内容，以避免减少警示作用。",
+				"3.11.3 以人身批评对人身批评进行回复的，不自动免除责任，但从轻处理。吧务可视情况分别或集中对相关主题和回复进行处理。",
+				"3.11.4 除非吧务已认定不成立，吧友有权指出人身批评。指出人身批评应优先以主题内回复的形式，并指出可查证的具体内容。若<a name=\"2.3\">因主题贴的楼主权利</a>或贴吧系统的原因无法直接回复，吧友有权使用主题贴的形式专题指出。",
 				"<a name=\"3.12\">3.12</a> 本吧限制<i>广告</i>。",
 				"<a name=\"3.12.1\">3.12.1</a> 吧规和索引贴内作为涉嫌违规的广告，专指没有被本条排除的<i>被限制的广告</i>。",
 				"3.12.2 被限制的广告的外延限于狭义的以经营或宣传特定个人、组织、商品及渠道为目的公开告示。",

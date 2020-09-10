@@ -38,7 +38,7 @@
 				"* 在提问贴中说明自己做出的努力(不需要长,把自己的代码或者思路写下来(具体或者大致的都行))",
 				"* 尽量在标题中说明具体的问题/错误(ie.无法打开文件，出现乱码...)",
 				"* 发代码者请注意自己的代码格式，并且给出足够的诊断信息/截图",
-				"* 贴代码的地方:<a href=\"http://gist.github.com/\" target=\"_blank\">Gist</a> |<a href=\"http://codepad.org/\" target=\"_blank\">Codepad</a> |<a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a> |<a href=\"http://pastebin.com/\" target=\"_blank\">Pastebin</a>|<a href=\"http://pastebin.mozilla.org/\" target=\"_blank\">Mozilla</a>"
+				"* 贴代码的地方: <a href=\"http://gist.github.com/\" target=\"_blank\">Gist</a> | <a href=\"http://codepad.org/\" target=\"_blank\">Codepad</a> | <a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a> | <a href=\"http://pastebin.com/\" target=\"_blank\">Pastebin</a> | <a href=\"http://pastebin.mozilla.org/\" target=\"_blank\">Mozilla</a>"
 			]},
 			{"name":"其他提示","content":[
 				"* 本吧IRC(聊天室): <a href=\"http://tieba.baidu.com/p/1941867601\" target=\"_blank\">介绍</a>, <a href=\"https://webchat.freenode.net\" target=\"_blank\">WebChat</a>[Channels: #c_lang_cn]",
@@ -348,7 +348,7 @@
 			{"name":"学C语言该如何入门","content":[
 				"看书, 读代码, 敲代码, Wikipedia, csdn, 本吧精品区, Google, Bing, Baidu"
 			]},
-			{"name":"为神马推荐《C Primer Plus》而不推荐销量干万的《C程序设计》","content":[
+			{"name":"为神马推荐《C Primer Plus》而不推荐销量千万的《C程序设计》","content":[
 				"不是说崇洋媚外，不是外国书就没错误了，只是《C程序设计》的概念性错误太多了"
 			]},
 			{"name":"看完了谭的《C程序设计》(或类似)请问下一步该做什么","content":[
@@ -368,7 +368,7 @@
 			]},
 			{"name":"32/64位Windows xp/7/8该用神马软件","content":["集成开发环境介绍的基本都可以"
 			]},
-			{"name":"找VC6?为什么不应该用VC6，以及为什么VC6的兼容性如此之差","content":["和Window98同样的道理(话说XP都到该被淘汰的时候了)"
+			{"name":"找VC6?为什么不应该用VC6，以及为什么VC6的兼容性如此之差","content":["和Windows98同样的道理(话说XP都到该被淘汰的时候了)"
 			]},
 			{"name":"有什么图形库","content":["EGE神马的挺好的(参见吧友作品)"
 			]},

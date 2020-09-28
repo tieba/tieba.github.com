@@ -296,7 +296,7 @@
 		{"name":"书籍简介","link":"books","content":[
 			{"name":"关于某些书","type":"linkdesc-block","content":[
 				["http://baike.baidu.com/view/963166.htm","《C程序设计》 <sub>谭浩强(谭老湿) 著</sub>","一本挺<b>渣</b>的书,有一堆概念错误,误导性严重<sub>话说被误导的某些家伙经常会被喷的很惨</sub>传说中的C语言<b>2</b>级考试<sub>真是很2的考试</sub>神书,推荐给只为了考证的同学<sub>想好好学的还是算了吧</sub>"],
-				["http://baike.baidu.com/view/963166.htm","《C++程序设计》 <sub>谭浩强(谭老湿) 著</sub>","渣渣"]
+				["https://baike.baidu.com/item/c%2B%2B%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/13878767","《C++程序设计》 <sub>谭浩强(谭老湿) 著</sub>","渣渣"]
 			]},
 			{"name":"C语言","content":[
 				{"name":"入门书籍","type":"linkdesc-block","content":[

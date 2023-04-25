@@ -213,7 +213,7 @@ for i in sys.argv[1:]:
 		else:
 			flags[i]="True"
 print(flags,file=sys.stderr)
-env = json.loads(sys.stdin.buffer.read().decode(), encoding = 'utf-8')
+env = json.loads(sys.stdin.buffer.read().decode())
 
 sys.stdout.buffer.write(printhtml(html(env)).encode('utf-8') + b"\n")
 
